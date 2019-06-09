@@ -1,0 +1,210 @@
+/** 
+==============
+GENERAL STYLES 
+==============
+**/
+
+:root {
+    --main: #00b0f0;
+    --second: #F05F40;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    min-height: 75rem;
+    padding-top: 4.5rem;
+}
+
+a, a::after {
+    color: var(--main);
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/** Scroll **/
+::-webkit-scrollbar {
+    width: 9px;
+    height: 9px
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--main);
+}
+
+::-webkit-scrollbar-track {
+    background: #fff;
+}
+/** Scroll end **/
+
+/** Header beginning **/
+.title {
+    color: var(--main); 
+}
+
+.section-title {
+    padding-bottom: 10px;
+}
+
+.text-muted {
+    opacity: 0.5;
+}
+
+/** NAVIGATION **/
+
+nav {
+    background-color: var(--main);
+}
+
+/** CONTENT **/
+
+section:before {
+    content: " ";
+    display: block;
+    position: relative;
+    margin-top: 50px;
+    visibility: hidden;
+}
+
+/** INTRO section **/
+
+/** My photo **/
+.me {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+
+/** EDUCATION section **/
+
+/** Timeline style **/
+ul.timeline {
+    list-style-type: none;
+    position: relative;
+}
+
+ul.timeline:before {
+    content: ' ';
+    background: #d4d9df;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+    z-index: 400;
+}
+
+ul.timeline > li {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+
+ul.timeline > li:before {
+    content: ' ';
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #22c0e8;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+}
+
+
+/** SKILLS section **/
+
+.skill-button {
+    background-color: #fff;
+    margin: 2px;
+    color: #000;
+    border-top: 2px var(--main) solid;
+    border-radius: 0%;
+}
+
+
+/** 
+    TAGS 
+    Education and Project sections
+**/
+
+.my-tag {
+    color: #000;
+    font-weight: 400;
+    background-color: #f0ffff;
+}
+
+
+.my-color {
+    color: var(--main);
+    
+}
+
+footer, .my-button {
+    background-color: var(--main);
+    color: #fff;
+}
+
+.tags {
+    background-color: var(--main);
+    color: #fff;
+    font-size: 14px;
+}
+
+label {
+    float: left;
+    margin: 0 0 0 -100px;
+    text-align: right;
+}
+.timeline {
+    
+    margin: 0 0 0 60px;
+}
+section {
+    margin-bottom: 50px;
+}
+.card {
+    border-top: 2px solid var(--main);
+}
+.anno {
+    font-size: 12px;
+}
+.card-link {
+    font-size: 12px;
+}
+
+
+
+.level-point {
+    background-color: var(--main);
+    color: #fff;
+}
+
+#logo {
+    width: 22px;
+    height: 22px;
+    margin-right: 10px;
+}
+.progress {
+    width: 50%;
+    
+}
+.progress-bar {
+    background-color: var(--main);
+}
+.social {
+    padding: 0;
+}
+
+.social li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.social li i { font-size: 30px; }
+.social li a { font-size: 16px; color: #fff; }
+.social li a:hover { color: var(--second--color); }
+

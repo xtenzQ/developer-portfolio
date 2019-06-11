@@ -34,6 +34,11 @@ footer, .my-button {
     color: #fff;
 }
 
+.my-button:hover {
+    background-color: red;
+    color: #fff;
+}
+
 .my-color {
     color: var(--main);  
 }

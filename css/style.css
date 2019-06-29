@@ -106,6 +106,7 @@ nav {
 
 /** Timeline style **/
 
+/*
 .timeline {
     margin: 0 0 0 60px;
 }
@@ -114,7 +115,7 @@ label {
     float: left;
     margin: 0 0 0 -100px;
     text-align: right;
-}
+}*/
 
 ul.timeline {
     list-style-type: none;

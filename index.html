@@ -1,372 +1,687 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <!-- Required meta tags -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <!-- Favicon -->
-        <link rel="shortcut icon" href="img/favicon.ico" type="image/png" />
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
-        <!-- AOS -->
-        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />      
-        <!-- FontAwesome script -->
-        <script src="https://kit.fontawesome.com/82aef158e1.js"></script>
-        <!-- Main CSS style -->
-        <link rel="stylesheet" type="text/css" href="css/style.css" />
-        <title>Nikita Rusetskii</title>
-    </head>
-    <body data-spy="scroll" data-target="#myNavBar" data-offset="100">
-        <div id="aboutme"></div>
-        <nav class="navbar navbar-expand-md navbar-dark fixed-top">
-            <div class="container">
-                <a class="navbar-brand text-uppercase offset-md-2" href="#aboutme">
-                    <!-- Logo -->
-                    <img id="logo" src="img/rocket.png" alt="Rocket logo" />
-                    Nikita Rusetskii
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/png" />
+    <!-- Main stylesheet -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- FontAwesome script -->
+    <script src="https://kit.fontawesome.com/82aef158e1.js"></script>
+    <title>NIKITA RUSETSKII - Software Engineer</title>
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <nav data-aos="fade-down" data-aos-duration="600" class="navbar is-primary is-mobile is-fixed-top">
+        <div class="container">
+            <div class="navbar-brand">
+                <a class="navbar-item has-text-weight-bold" href="#home">
+
+                    <!--<img src="img/logo2.png" alt="Logo" id="logo">-->NIKITA RUSETSKY
                 </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavBar" aria-controls="myNavBar" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="myNavBar">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item">
-                            <a class="nav-link active" href="#aboutme">Intro</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#education">Education</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#skills">Skills</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#projects">Projects </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="blog">Blog</a>
-                        </li>
-                    </ul>
+                <!-- Navbar icon -->
+                <span class="navbar-burger burger" data-target="navMenu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </span>
+            </div>
+            <div id="navMenu" class="navbar-menu">
+                <div class="navbar-end has-text-weight-bold">
+                    <a href="#aboutme" class="navbar-item">
+                        <span class="icon">
+                            <i class="fas fa-info"></i>
+                        </span>
+                        <span>Me</span>
+                    </a>
+                    <a href="#skills" class="navbar-item">
+                        <span class="icon">
+                            <i class="fas fa-hammer"></i>
+                        </span>
+                        <span>Skills</span>
+                    </a>
+                    <a href="#education" class="navbar-item">
+                        <span class="icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </span>
+                        <span>Education</span>
+                    </a>
+                    <a href="#projects" class="navbar-item">
+                        <span class="icon">
+                            <i class="fas fa-th-list"></i>
+                        </span>
+                        <span>Projects</span>
+                    </a>
                 </div>
             </div>
-        </nav>
+        </div>
+    </nav>
 
-        <!-- NAVIGATION -->
+    <!-- HOME -->
+    <section id="home" class="hero is-primary is-fullheight">
+        <div class="hero-body">
+            <div class="container">
+                <div data-aos="fade-left" data-aos-duration="1500" class="columns is-centered is-vcentered">
+                    <div class="column is-one-third">
+                        <img src="img/developer.svg" alt="Developer" />
+                    </div>
+                    <div class="column is-half ">
+                        <h3 class="subtitle is-3 has-text-justified has-text-weight-light">
+                            I'm <strong>Nikita RUSETSKY</strong>, a software engineer and a graduate student interested
+                            in building desktop applications and designing websites <i class="em em-tool"></i>
+                        </h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div data-aos="fade-up" data-aos-offset="0" data-aos-duration="600" class="hero-foot">
+            <nav class="tabs is-boxed is-fullwidth">
+                <div class="container">
+                    <h4 class="subtitle is-4 has-text-weight-light has-text-centered">
+                        <a class="no-decor" href="#aboutme">Learn more about what I do <i style="padding-left: 10px;"
+                                class="fas fa-angle-down"></i></a>
+                    </h4>
+                </div>
+            </nav>
+        </div>
+    </section>
 
-        <!-- HEADER -->
-        <header class="masthead text-center my-5">
-            <div class="container d-flex align-items-center flex-column">         
-                <!-- Masthead Avatar Image -->
-                <img class="masthead-avatar mb-2 me" src="img/me.png" alt="My photo" />
-                <!-- Masthead Heading -->
-                <h2 class="masthead-heading text-uppercase mb-0"><span class="title">N</span>ikita <span class="title">R</span>usetskii</h2>
-                <!-- Icon Divider -->
-                <div class="divider-custom divider-light">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon">
-                    </div>
-                    <div class="divider-custom-line"></div>
+    <!-- ABOUT ME -->
+    <section id="aboutme" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-duration="500"
+        class="section">
+        <div class="container">
+            <div class="content">
+                <div class="title">
+                    <h4 class="is-4 has-text-centered has-text-weight-light is-uppercase">About me</h4>
                 </div>
-                <!-- Masthead Subheading -->
-                <p class="masthead-subheading font-weight-light mb-0 my-2">23 y.o. - MSc student - Longlife learner</p>
-                <div class="dropdown">
-                    <button class="btn my-button text-uppercase font-weight-bold dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Download CV
-                    </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a target="_blank" class="dropdown-item" href="https://github.com/xtenzQ/xtenzQ.github.io/raw/master/cv/cv.pdf"><i class="fas my-color fa-file-pdf"></i> PDF</a>
-                        <a target="_blank" class="dropdown-item" href="https://github.com/xtenzQ/xtenzQ.github.io/blob/master/cv/cv.png?raw=true"><i class="fas my-color fa-file-image"></i> PNG</a>
+                <div class="columns is-centered has-text-justified section-beggining">
+                    <div class="column is-one-fifth has-text-centered">
+                        <img id="me" src="img/me.png" alt="Yo, its me!" />
                     </div>
-                </div>
-            </div>
-        </header>
-        <!-- ABOUT ME section -->
-        <section data-aos="fade-up" data-aos-duration="2000">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 offset-md-2">
-                        <h4 class="section-title"><span class="title"><i class="fas fa-infinity"></i> INT</span>RO</h4>
-                        <p class="mt-10 text-justify">
-                            Since early ages the world of high technology always attracted me. The world where you can create everything you want with your own hands through code, through every single operator -
-                            this is the place where the true magic happens. I'm in the beginning of the path to become a professional programmer and I'm very excited about it. The life is a river, and the
-                            technology is a thing that makes it to flow faster.
-                        </p>
+                    <div class="column is-one-third">
+                        <p class="has-text-weight-semibold">Hello everyone!</p>
+                        <p>Ever since I was a boy the world of high technology always attracted me. The world where you
+                            can create everything you want with your own hands through code,
+                            through every single operator - this is the place where the true magic happens. I'm in the
+                            beginning of the path of the software engineer
+                            and I'm very excited about it. The life is a river, and the technology is a thing that makes
+                            it to flow faster.</p>
+                        <p>And remember - <i>Time waits for no one</i></p>
+                        <div class="buttons are-medium">
+                            <a class="button is-primary" target="_blank" href="mailto:rusetscky@outlook.com"><i
+                                    class="fas fa-envelope"></i></a>
+                            <a class="button is-primary" target="_blank" href="https://www.linkedin.com/in/xtenzq/"><i
+                                    class="fab fa-linkedin"></i></a>
+                            <a class="button is-primary" target="_blank" href="https://github.com/xtenzQ"><i
+                                    class="fab fa-github"></i></a>
+                            <a class="button is-primary" target="_blank" href="https://instagram.com/xtenzQ"><i
+                                    class="fab fa-instagram"></i></a>
+                        </div>
+
                     </div>
-                </div>
-            </div>
-        </section>
-        <!-- EDUCATION section -->
-        <div id="education"></div>
-        <section data-aos="fade-up" data-aos-delay="500" data-aos-duration="2000">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 offset-md-2">
-                        <h4 class="section-title"><span class="title"><i class="fas fa-graduation-cap"></i> EDU</span>CATION</h4>
-                        <ul class="timeline">
-                            <!--<label>Sep 2019<br>Dec 2019</label>
-                            <li>
-                                <a class="text-uppercase font-weight-bold" href="#" target="_blank">Information and Communcation Engineering</a>
-                                <p class="float-right text-muted"><i class="fas fa-map-marker-alt"></i> Incheon, South Korea</p>                                
-                                <p class="my-0">Inha University</p>
-                                <p class="my-0">Exchange program participant</p>
-                                <p class="my-0">Courses: 
-                                    <span class="badge my-tag">Information Security</span>
-                                    <span class="badge my-tag">Operating System</span>
-                                    <span class="badge my-tag">Information and Coding Theory</span>
-                                    <span class="badge my-tag">Capstone Design in ICT</span>                                    
-                                    <span class="badge my-tag">Analysis and Capstone Design of Integrated Circuit Engineering</span>
-                                </p>
-                            </li>-->
-                            <li>
-                                <a class="text-uppercase font-weight-bold" href="#" target="_blank">MSc Information Science and Computer Engineering</a>
-                                <p class="float-right text-muted small"><i class="far fa-calendar-alt"></i> Sep 2018 - present</p>                             
-                                <p class="my-0">Irkutsk National Research Technical University <span class="text-muted small">/ <i class="fas fa-map-marker-alt"></i> Irkutsk, Russia</span></p>
-                                <p class="my-0">Cumulative GPA 5.0 / 5.0</p>
-                                <p class="my-0">Courses: 
-                                    <span class="badge my-tag">Computer networks</span>
-                                    <span class="badge my-tag">Computing systems</span>
-                                    <span class="badge my-tag">Optimization methods</span>
-                                    <span class="badge my-tag">Networks architecture</span>                                    
-                                    <span class="badge my-tag">Software Development Technology</span>
-                                </p>
-                            </li>
-                            
-                            <li>
-                                <a class="text-uppercase font-weight-bold" href="#" target="_blank">BSc Information Science and Computer Engineering</a>
-                                <p class="float-right text-muted small"><i class="far fa-calendar-alt"></i> Sep 2014 - Jun 2018</p>
-                                <p class="my-0">Irkutsk National Research Technical University <span class="text-muted small">/ <i class="fas fa-map-marker-alt"></i> Irkutsk, Russia</span></p>
-                                <p class="my-0">Cumulative GPA 4.86 / 5.0</p>
-                                <p class="my-0">Courses: 
-                                    <span class="badge my-tag">Databases</span>
-                                    <span class="badge my-tag">Object-Oriented Programming</span>
-                                    <span class="badge my-tag">Operating Systems</span>
-                                    <span class="badge my-tag">Software Development Technology</span>
-                                    <span class="badge my-tag">Machine-Oriented Programming</span>
-                                    <span class="badge my-tag">AI and Concurrent Programming</span>
-                                    <span class="badge my-tag">Data Processing Methods</span>
-                                    <span class="badge my-tag">Analysis of Computer Algorithms</span>
-                                    <span class="badge my-tag">Computer Aided Design</span>
-                                </p>
-                            </li>
+                    <div class="column is-one-fifth">
+                        <p class="has-text-weight-semibold">My interests</p>
+                        <ul>
+                            <li><i>Programming</i></li>
+                            <li><i>Information security</i></li>
+                            <li>Foreign languages (English, Korean)</li>
+                            <li>Cycling</li>
+                            <li>Fiction reading</li>
                         </ul>
                     </div>
                 </div>
             </div>
-        </section>
-        <div id="skills"></div>
-        <!-- SKILLS section -->
-        <section data-aos="fade-up" data-aos-duration="2000">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 offset-md-2">
-                        <h4 class="section-title"><span class="title"><i class="fab fa-connectdevelop"></i> SKI</span>LLS</h4>
-                        <div class="row">
-                            <!-- Programming subsection -->
-                            <div class="col-md-6 mb-4">
-                                <h6 class="text-uppercase"><span class="title"><i class="fas fa-laptop-code"></i> P</span>rogramming</h6>
-                                <button type="button" class="btn skill-button">C#</button>
-                                <button type="button" class="btn skill-button">Java</button>
-                                <button type="button" class="btn skill-button">Python</button>
-                            </div>
-                            <!-- Web subsection -->
-                            <div class="col-md-6 mb-4">
-                                <h6 class="text-uppercase my-2"><span class="title"><i class="fas fa-globe-europe"></i> W</span>eb</h6>
-                                <button type="button" class="btn skill-button">CSS</button>
-                                <button type="button" class="btn skill-button">JavaScript</button>
-                                <button type="button" class="btn skill-button">Bootstrap</button>
-                                <button type="button" class="btn skill-button">Bulma</button>
-                                <button type="button" class="btn skill-button">jQuery</button>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <!-- Frameworks subsection -->
-                            <div class="col-md-6 mb-4">
-                                <h6 class="text-uppercase my-2"><span class="title"><i class="fas fa-tools"></i> F</span>rameworks</h6>
-                                <button type="button" class="btn skill-button">WPF</button>
-                                <button type="button" class="btn skill-button">WCF</button>
-                                <button type="button" class="btn skill-button">Entity Framework Core</button>
-                                <button type="button" class="btn skill-button">OpenCV</button>
-                                <button type="button" class="btn skill-button">OpenGL</button>
-                            </div>
-                            <!-- Languages subsection -->
-                            <div class="col-md-6 mb-4">
-                                <h6 class="text-uppercase my-2"><span class="title"><i class="fas fa-language"></i> L</span>anguages</h6>
-                                <button type="button" class="btn skill-button">
-                                Russian <span class="badge level-point">Native</span>
-                                </button>
-                                <button type="button" class="btn skill-button">
-                                English <span class="badge level-point">Upper-Intermediate</span>
-                                </button>
-                                <button type="button" class="btn skill-button">
-                                Korean <span class="badge level-point">Basic</span>
-                                </button>
-                            </div>
-                        </div>                    
-                    </div>
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-duration="500" class="section">
+        <div class="container">
+            <div class="content">
+                <div class="title">
+                    <h4 class="is-4 has-text-centered has-text-weight-light is-uppercase">Skills</h4>
                 </div>
-            </div>
-        </section>
-        <!-- PROJECTS section -->
-        <div id="projects"></div>
-        <section data-aos="fade-up" data-aos-duration="2000">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 offset-md-2">
-                        <h4 class="section-title"><span class="title"><i class="fas fa-project-diagram"></i> UNI</span>VERSITY PROJECTS</h4>
-                        <!-- Card deck -->
-                        <div class="card-deck">                  
-                            <div class="col-md-6 mb-3">
-                                <!-- Card -->
-                                <div class="card w-100 h-100">
-                                    <img class="card-img-top" src="img/cards/ML.png" alt="Card image cap">   
-                                    <!--Card content-->
-                                    <div class="card-body d-flex flex-column">              
-                                        <!--Title-->
-                                        <h6 class="card-title text-uppercase my-1"><i class="fas fa-code mt-auto"></i> Human Recognition Software</h6>
-                                        <!--Text-->
-                                        <p class="anno text-muted"><i class="fas fa-graduation-cap"></i> Master's thesis / Sep 2018 - present</p>
-                                        <p class="card-text">Human recognition software to search for people on the
-                                                long video files with means of machine learning</p>
-                                        <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-                                        <p class="mt-auto my-0">
-                                            <span class="badge my-tag">Python</span>
-                                            <span class="badge my-tag">Tensorflow</span>
-                                            <span class="badge my-tag">Faster RCNN Inception</span>
-                                            <span class="badge my-tag">PyQt 5</span>
-                                        </p>                  
-                                    </div>    
+                <div class="columns is-centered">
+                    <div class="column is-half">
+                        <p class="has-text-centered">Development</p>
+                        <div class="tags is-centered">
+                            <span class="tag is-primary">C#</span>
+                            <span class="tag is-primary">Java</span>
+                            <span class="tag is-primary">Python</span>
+                            <span class="tag is-primary">CSS</span>
+                            <span class="tag is-primary">Javascript</span>
+                            <span class="tag is-primary">jQuery</span>
+                            <span class="tag is-primary">Bootstrap</span>
+                            <span class="tag is-primary">Bulma</span>
+                            <span class="tag is-primary">Entity Framework Core</span>
+                            <span class="tag is-primary">OpenCV</span>
+                            <span class="tag is-primary">OpenGL</span>
+                            <span class="tag is-primary">WPF</span>
+                            <span class="tag is-primary">WCF</span>
+                        </div>
+                        <p class="has-text-centered">Language</p>
+                        <div style="display: flex; justify-content: center;"
+                            class="field is-grouped is-grouped-multiline">
+                            <div class="control">
+                                <div class="tags has-addons">
+                                    <span class="tag is-white">Russian</span>
+                                    <span class="tag is-primary">Native</span>
                                 </div>
                             </div>
-                            <div class="col-md-6 mb-3">
-                                <div class="card w-100 h-100">                
-                                    <img class="card-img-top" src="img/cards/EMS.png" alt="Card image cap">  
-                                    <!--Card content-->
-                                    <div class="card-body d-flex flex-column">
-                                        <!--Title-->
-                                        <h6 class="card-title text-uppercase my-1"><i class="fas fa-code mt-auto"></i> EMPLOYEE MONITORING SOFTWARE</h6>
-                                        <p class="anno text-muted"><i class="fas fa-graduation-cap"></i> Bachelor's thesis / Dec 2017 - Jun 2018</p>
-                                        <!--Text-->
-                                        <p class="card-text">Employee monitoring software with remote control tool made to prevent corporate secrets to be revealed by company employees</p>
-                                        <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-                                        <p class="mt-auto my-0">
-                                            <span class="badge my-tag">C#</span>                              
-                                            <span class="badge my-tag">WCF</span>
-                                            <span class="badge my-tag">EFCore</span>
-                                            <span class="badge my-tag">Windows API Hooking</span>
-                                            <span class="badge my-tag">.NET Framework</span>
-                                        </p> 
-                                    </div>
+                            <div class="control">
+                                <div class="tags has-addons">
+                                    <span class="tag is-white">English</span>
+                                    <span class="tag is-primary">Upper-Intermediate</span>
                                 </div>
                             </div>
-                            <div class="col-md-6 mb-3">
-                                <!-- Card -->
-                                <div class="card w-100 h-100">
-                                    <a href="https://github.com/xtenzQ/WPF-MVVM-EFC-Example"><img class="card-img-top" src="img/cards/WPF.png" alt="Card image cap"/></a> 
-                                    <!--Card content-->
-                                    <div class="card-body d-flex flex-column">       
-                                        <!--Title-->
-                                        <h6 class="card-title text-uppercase my-1"><i class="fas fa-code mt-auto"></i> <a href="https://github.com/xtenzQ/WPF-MVVM-EFC-Example">WPF MVVM Application</a></h6>
-                                        <p class="anno text-muted"><i class="fas fa-university"></i> Course project</p>
-                                        <!--Text-->
-                                        <p class="card-text">MVVM + Entity Framework Core Code First + Abstract Factory Pattern + Dependency Injection WPF Example App</p>
-                                        <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-                                        <p class="mt-auto my-0">
-                                            <span class="badge my-tag">C#</span>                              
-                                            <span class="badge my-tag">WPF</span>
-                                            <span class="badge my-tag">MVVM</span>
-                                            <span class="badge my-tag">Microsoft Unity</span>
-                                            <span class="badge my-tag">EFCore</span>
-                                        </p> 
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 mb-3">
-                                <div class="card w-100 h-100 viewoverlay">            
-                                    <a href="https://github.com/xtenzQ/Xamarin-MVVM-EFC-Example"><img class="card-img-top" src="img/cards/UWP.png" alt="Card image cap" /></a>                              
-                                    <!--Card content-->
-                                    <div class="card-body d-flex flex-column">                                
-                                        <!--Title-->
-                                        <h6 class="card-title text-uppercase my-1"><i class="fas fa-code mt-auto"></i> <a href="https://github.com/xtenzQ/Xamarin-MVVM-EFC-Example">Xamarin MVVM Application</a></h6>
-                                        <p class="anno text-muted mb-0"><i class="fas fa-university"></i> Course project</p>
-                                        <!--Text-->
-                                        <p class="card-text my-1">MVVM + Entity Framework Core Code First + Abstract Factory Pattern Xamarin Example App</p>
-                                        
-                                        <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-                                        <p class="mt-auto my-0">
-                                            <span class="badge my-tag">C#</span>                              
-                                            <span class="badge my-tag">Xamarin</span>
-                                            <span class="badge my-tag">MVVM</span>
-                                            <span class="badge my-tag">EFCore</span>
-                                        </p> 
-                                    </div>                           
-                                </div>
-                            </div>
-                            <div class="col-md-6 mb-3">
-                                <div class="card w-100 h-100">
-                                    <a href="https://github.com/xtenzQ/2D-metaballs"><img class="card-img-top" src="img/cards/metaballs.png" alt="Card image cap"></a>        
-                                    <div class="card-body d-flex flex-column">
-                                        <h6 class="card-title text-uppercase my-1"><i class="fas fa-code mt-auto"></i> <a href="https://github.com/xtenzQ/2D-metaballs">2D METABALLS</a></h6>
-                                        <p class="anno text-muted"><i class="fas fa-university"></i> Term project</p>
-                                        <p class="card-text">Two dimensional metaballs implementation using Java and OpenGL</p>
-                                        <p class="mt-auto my-0">
-                                            <span class="badge my-tag">Java</span>                              
-                                            <span class="badge my-tag">OpenGL</span>
-                                            <span class="badge my-tag">Liquid simulation</span>
-                                        </p>                             
-                                    </div>                       
-                                </div>
-                            </div>
-                            <div class="col-md-6 mb-3">
-                                <div class="card w-100 h-100">            
-                                    <a href="https://github.com/xtenzQ/Jogl-Helicopter"><img class="card-img-top" src="img/cards/heli.png" alt="Card image cap"></a>                                   
-                                    <!--Card content-->
-                                    <div class="card-body d-flex flex-column">                                
-                                        <!--Title-->
-                                        <h6 class="card-title text-uppercase my-1"><i class="fas fa-code mt-auto"></i> <a href="https://github.com/xtenzQ/Jogl-Helicopter">JOGL Helicopter</a></h6>
-                                        <p class="anno text-muted"><i class="fas fa-university"></i> Course project</p>
-                                        <!--Text-->
-                                        <p class="card-text">Simple OpenGL implementation of a flying helicopter with basic physics applied</p>
-                                        <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-                                        <p class="mt-auto my-0">
-                                            <span class="badge my-tag">Java</span>                              
-                                            <span class="badge my-tag">OpenGL</span>
-                                            <span class="badge my-tag">Physics</span>
-                                        </p> 
-                                    </div>                           
+                            <div class="control">
+                                <div class="tags has-addons">
+                                    <span class="tag is-white">Korean</span>
+                                    <span class="tag is-primary">Basic</span>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            <p class="text-center">Check my projects on <i class="fab fa-github"></i> <a target="_blank" href="https://github.com/xtenzQ">Github</a></p>            
             </div>
-        </section>
-        <!-- FOOTER -->
-        <footer class="page-footer font-small text-white">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 py-5">
-                        <div class="flex-center">
-                            <ul class="social text-center">
-                                <li><a target="_blank" href="mailto:rusetscky@outlook.com"><i class="fas fa-envelope"></i></a></li>
-                                <li><a target="_blank" href="https://www.linkedin.com/in/xtenzq/"><i class="fab fa-linkedin"></i></a></li>
-                                <li><a target="_blank" href="https://github.com/xtenzQ"><i class="fab fa-github"></i></a></li>
-                                <li><a target="_blank" href="https://instagram.com/xtenzQ"><i class="fab fa-instagram"></i></a></li>
-                            </ul>
-                            <div class="text-center py-3"><i>You can overcome everything if you set your mind to it</i></div>
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="education" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-duration="500"
+        data-aos-offset="100" class="section">
+        <div class="container">
+            <div class="content">
+                <div class="title">
+                    <h4 class="is-4 has-text-centered has-text-weight-light is-uppercase">Education</h4>
+                </div>
+                <div class="columns is-centered">
+                    <div class="column is-half">
+                        <div class="uni has-text-centered">
+                            <h4 class="is-uppercase has-text-weight-semibold">MSc Information and Computer Engineering
+                            </h4>
+                            <h6 class="has-text-weight-light">Irkutsk National Research Technical University • Sep 2018
+                                -
+                                Jun 2020 • CGPA 5.0 / 5.0 </h6>
+                            <div class="tags is-centered">
+                                <span class="tag">Computer networks</span>
+                                <span class="tag">Computing systems</span>
+                                <span class="tag">Optimization methods</span>
+                                <span class="tag">Networks architecture</span>
+                                <span class="tag">Software Development Technology</span>
+                            </div>
+
                         </div>
-                    </div>          
-                </div>     
-            </div>     
-        </footer>
-        <!-- Optional JavaScript -->
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>       
-        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-        <script src="js/script.js"></script>
-        <script>
-          AOS.init();
-        </script>
-    </body>
+                        <br>
+                        <!-- Exchange -->
+                        <div class="uni has-text-centered">
+                            <h4 class="is-uppercase has-text-weight-semibold">Information and Communication Engineering
+                            </h4>
+                            <h6 class="has-text-weight-light">Inha University 인하대학교 • Sep 2019 - Dec 2019 • Exchange
+                                student
+                            </h6>
+                            <div class="tags is-centered">
+                                <span class="tag">Information Security</span>
+                                <span class="tag">Operating System</span>
+                                <span class="tag">Information and Coding Theory</span>
+                                <span class="tag">Capstone Design in ICT</span>
+                                <span class="tag">Analysis and Capstone Design of Integrated Circuit Engineering</span>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="uni has-text-centered">
+                            <h4 class="is-uppercase has-text-weight-semibold">BSc Information and Computer Engineering
+                            </h4>
+                            <h6 class="has-text-weight-light">Irkutsk National Research Technical University • Sep 2014
+                                -
+                                Jun 2018 • CGPA 4.86 / 5.0</h6>
+                            <div class="tags is-centered">
+                                <span class="tag">Databases</span>
+                                <span class="tag">Object-Oriented Programming</span>
+                                <span class="tag">Operating Systems</span>
+                                <span class="tag">Software Development Technology</span>
+                                <span class="tag">Machine-Oriented Programming</span>
+                                <span class="tag">AI and Concurrent Programming</span>
+                                <span class="tag">Data Processing Methods</span>
+                                <span class="tag">Analysis of Computer Algorithms</span>
+                                <span class="tag">Computer Aided Design</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section id="projects" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-duration="500"
+        class="section">
+        <div class="container">
+            <div class="content">
+                <div class="title">
+                    <h4 class="is-4 has-text-centered has-text-weight-light is-uppercase">Projects</h4>
+                </div>
+                <!-- 1st line -->
+                <div class="columns">
+                    <div class="column">
+                        <!-- Adapt.ai -->
+                        <div class="card">
+                            <header class="card-header">
+                                <p class="card-header-title">
+                                    <span><i class="fas fa-code mt-auto" aria-hidden="true"></i> Human Recognition
+                                        Software</span>
+                                </p>
+                            </header>
+                            <div class="card-content">
+                                <figure class="image">
+                                    <img src="img/projects/1.png" alt="Human recognition software screenshot">
+                                </figure>
+                                <div class="has-text-grey-light">
+                                    <small><i class="fas fa-graduation-cap"></i> Master's thesis</small>
+                                </div>
+                                <div style="padding-top: 0.5em" class="content">
+                                    Human recognition software to search for people on the long video files with means
+                                    of machine learning
+                                </div>
+                                <div class="field is-grouped-multiline">
+                                    <div class="control">
+                                        <div class="tags">
+                                            <a class="tag is-primary">Python</a>
+                                            <a class="tag is-primary">PyQt 5</a>
+                                            <a class="tag is-primary">Tensorflow</a>
+                                            <a class="tag is-primary">2019</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <footer class="card-footer">
+                                <a class="card-footer-item">
+                                    <span class="icon">
+                                        <i class="fas fa-eye-slash"></i>
+                                    </span>
+                                    <span>Temporarily unavailable</span>
+                                </a>
+                            </footer>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <!-- If you played for -->
+                        <div class="card">
+                            <header class="card-header">
+                                <p class="card-header-title">
+                                    <span><i class="fas fa-code mt-auto" aria-hidden="true"></i> Employee monitoring
+                                        software</span>
+                                </p>
+                            </header>
+                            <div class="card-content">
+                                <figure class="image">
+                                    <img src="img/projects/2.png" alt="Employee monitoring software screenshot">
+                                </figure>
+                                <div class="has-text-grey-light">
+                                    <small><i class="fas fa-graduation-cap"></i> Bachelor's thesis</small>
+                                </div>
+                                <div style="margin-top:0.5em" class="content">
+                                    Employee monitoring software with remote control tool made to prevent corporate
+                                    secrets to be revealed by company employees
+                                </div>
+                                <div class="field is-grouped-multiline">
+                                    <div class="control">
+                                        <div class="tags">
+                                            <a class="tag is-primary">C#</a>
+                                            <a class="tag is-primary">EFCore</a>
+                                            <a class="tag is-primary">API Hooks</a>
+                                            <a class="tag is-primary">2018</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <footer class="card-footer">
+                                <a class="card-footer-item">
+                                    <span class="icon">
+                                        <i class="fas fa-eye-slash"></i>
+                                    </span>
+                                    <span>Temporarily unavailable</span>
+                                </a>
+                            </footer>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <!-- Data Structures & Algorithmes -->
+                        <div class="card">
+                            <header class="card-header">
+                                <p class="card-header-title">
+                                    <span><i class="fas fa-code mt-auto" aria-hidden="true"></i> 2D Metaballs</span>
+                                </p>
+                            </header>
+                            <div class="card-content">
+                                <figure class="image">
+                                    <img src="img/projects/3.png" alt="2D Metaballs screenshot">
+                                </figure>
+                                <div class="has-text-grey-light">
+                                    <small><i class="fas fa-laptop"></i> Term project</small>
+                                </div>
+                                <div style="margin-top:0.5em" class="content">
+                                    Two dimensional metaballs implementation using Java and OpenGL
+                                </div>
+                                <div class="field is-grouped-multiline">
+                                    <div class="control">
+                                        <div class="tags">
+                                            <a class="tag is-primary">Java</a>
+                                            <a class="tag is-primary">OpenGL</a>
+                                            <a class="tag is-primary">Liquids</a>
+                                            <a class="tag is-primary">2016</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <footer class="card-footer">
+                                <a href="https://github.com/xtenzQ/2D-metaballs/archive/master.zip"
+                                    class="card-footer-item">
+                                    <span class="icon">
+                                        <i class="fa fa-download"> </i>
+                                    </span>
+                                    <span>Download</span>
+                                </a>
+                                <a href="https://github.com/xtenzQ/2D-metaballs" class="card-footer-item">
+                                    <span class="icon">
+                                        <i class="fab fa-github"> </i>
+                                    </span>
+                                    Source Code
+                                </a>
+                            </footer>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <!-- Zarabi Tour -->
+                        <div class="card">
+                            <header class="card-header">
+                                <p class="card-header-title">
+                                    <span><i class="fas fa-code mt-auto" aria-hidden="true"></i> JOGL Helicopter</span>
+                                </p>
+                            </header>
+                            <div class="card-content">
+                                <figure class="image">
+                                    <img src="img/projects/4.png" alt="JOGL Helicopter screenshot">
+                                </figure>
+                                <div class="has-text-grey-light">
+                                    <small><i class="fas fa-flask"></i> Laboratory work</small>
+                                </div>
+                                <div style="margin-top:0.5em" class="content">
+                                    Simple OpenGL implementation of a flying helicopter with basic physics applied
+                                </div>
+                                <div class="field is-grouped-multiline">
+                                    <div class="control">
+                                        <div class="tags">
+                                            <a class="tag is-primary">Java</a>
+                                            <a class="tag is-primary">OpenGL</a>
+                                            <a class="tag is-primary">Physics</a>
+                                            <a class="tag is-primary">2016</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <footer class="card-footer">
+                                <a href="https://github.com/xtenzQ/JOGL-Helicopter/archive/master.zip"
+                                    class="card-footer-item">
+                                    <span class="icon">
+                                        <i class="fa fa-download"> </i>
+                                    </span>
+                                    <span>Download</span>
+                                </a>
+                                <a href="https://github.com/xtenzQ/JOGL-Helicopter" class="card-footer-item">
+                                    <span class="icon">
+                                        <i class="fab fa-github"> </i>
+                                    </span>
+                                    Source Code
+                                </a>
+                            </footer>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2nd line -->
+                <div class="columns">
+                    <div class="column">
+                        <!-- Cart'ZZ -->
+                        <div class="card">
+                            <header class="card-header">
+                                <p class="card-header-title">
+                                    <span><i class="fas fa-code mt-auto" aria-hidden="true"></i> WPF MVVM
+                                        Application</span>
+                                </p>
+                            </header>
+                            <div class="card-content">
+                                <figure class="image">
+                                    <img src="img/projects/5.png" alt="WPF MVVM
+                                    Applicatio screenshot">
+                                </figure>
+                                <div class="has-text-grey-light">
+                                    <small><i class="fas fa-flask"></i> Laboratory work</small>
+                                </div>
+                                <div style="margin-top:0.5em" class="content">
+                                    MVVM + Entity Framework Core Code First + Abstract Factory Pattern + Dependency
+                                    Injection WPF Example App
+                                </div>
+                                <div class="field is-grouped-multiline">
+                                    <div class="control">
+                                        <div class="tags">
+                                            <a class="tag is-primary">C#</a>
+                                            <a class="tag is-primary">WPF</a>
+                                            <a class="tag is-primary">EFCore</a>
+                                            <a class="tag is-primary">2019</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <footer class="card-footer">
+                                <a href="https://github.com/xtenzQ/WPF-MVVM-EFC-Example/archive/master.zip"
+                                    class="card-footer-item">
+                                    <span class="icon">
+                                        <i class="fa fa-download"> </i>
+                                    </span>
+                                    <span>Download</span>
+                                </a>
+                                <a href="https://github.com/xtenzQ/WPF-MVVM-EFC-Example" class="card-footer-item">
+                                    <span class="icon">
+                                        <i class="fab fa-github"> </i>
+                                    </span>
+                                    Source Code
+                                </a>
+                            </footer>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <!-- My Portfolio -->
+                        <div class="card">
+                            <header class="card-header">
+                                <p class="card-header-title">
+                                    <span><i class="fas fa-code mt-auto" aria-hidden="true"></i> UWP MVVM
+                                        Application</span>
+                                </p>
+                            </header>
+                            <div class="card-content">
+                                <figure class="image">
+                                    <img src="img/projects/6.png" alt="UWP MVVM
+                                    Application screenshot">
+                                </figure>
+                                <div class="has-text-grey-light">
+                                    <small><i class="fas fa-flask"></i> Laboratory work</small>
+                                </div>
+                                <div style="margin-top:0.5em" class="content">
+                                    MVVM + Entity Framework Core Code First + Abstract Factory Pattern Xamarin Example
+                                    App
+                                </div>
+                                <div class="field is-grouped-multiline">
+                                    <div class="control">
+                                        <div class="tags">
+                                            <a class="tag is-primary">C#</a>
+                                            <a class="tag is-primary">Xamarin</a>
+                                            <a class="tag is-primary">EFCore</a>
+                                            <a class="tag is-primary">2019</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <footer class="card-footer">
+                                <a href="https://github.com/xtenzQ/Xamarin-MVVM-EFC-Example/archive/master.zip"
+                                    class="card-footer-item">
+                                    <span class="icon">
+                                        <i class="fa fa-download"> </i>
+                                    </span>
+                                    <span>Download</span>
+                                </a>
+                                <a href="https://github.com/xtenzQ/Xamarin-MVVM-EFC-Example" class="card-footer-item">
+                                    <span class="icon">
+                                        <i class="fab fa-github"> </i>
+                                    </span>
+                                    Source Code
+                                </a>
+                            </footer>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <!-- Word Cup Draw Simulator -->
+                        <div class="card">
+                            <header class="card-header">
+                                <p class="card-header-title">
+                                    <span><i class="fas fa-code mt-auto" aria-hidden="true"></i>
+                                        QBroadcastMessenger</span>
+                                </p>
+                            </header>
+                            <div class="card-content">
+                                <figure class="image">
+                                    <img src="img/projects/7.png" alt="QBroadcastMessenger screenshot">
+                                </figure>
+                                <div class="has-text-grey-light">
+                                    <small><i class="fas fa-flask"></i> Laboratory work</small>
+                                </div>
+                                <div style="margin-top:0.5em" class="content">
+                                    Messenger which uses UDP boradcast to send messages
+                                </div>
+                                <div class="field is-grouped-multiline">
+                                    <div class="control">
+                                        <div class="tags">
+                                            <a class="tag is-primary">C++</a>
+                                            <a class="tag is-primary">Qt</a>
+                                            <a class="tag is-primary">Messenger</a>
+                                            <a class="tag is-primary">2019</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <footer class="card-footer">
+                                <a href="https://github.com/xtenzQ/QBroadcastMessenger/archive/master.zip"
+                                    class="card-footer-item">
+                                    <span class="icon">
+                                        <i class="fa fa-download"> </i>
+                                    </span>
+                                    <span>Download</span>
+                                </a>
+                                <a href="https://github.com/xtenzQ/QBroadcastMessenger" class="card-footer-item">
+                                    <span class="icon">
+                                        <i class="fab fa-github"> </i>
+                                    </span>
+                                    Source Code
+                                </a>
+                            </footer>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <!-- BRB CENM -->
+                        <div class="card">
+                            <header class="card-header">
+                                <p class="card-header-title">
+                                    <span><i class="fas fa-code mt-auto" aria-hidden="true"></i> QBrowser</span>
+                                </p>
+                            </header>
+                            <div class="card-content">
+                                <figure class="image">
+                                    <img src="img/projects/8.png" alt="QBrowser screenshot">
+                                </figure>
+                                <div class="has-text-grey-light">
+                                    <small><i class="fas fa-flask"></i> Laboratory work</small>
+                                </div>
+                                <div style="margin-top:0.5em" class="content">
+                                    Qtwebkit-based web browser with custom address bar and source code syntax
+                                    highlighter
+                                </div>
+                                <div class="field is-grouped-multiline">
+                                    <div class="control">
+                                        <div class="tags">
+                                            <a class="tag is-primary">C++</a>
+                                            <a class="tag is-primary">Qt</a>
+                                            <a class="tag is-primary">Browser</a>
+                                            <a class="tag is-primary">2017</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <footer class="card-footer">
+                                <a href="https://github.com/xtenzQ/QBrowser/archive/master.zip"
+                                    class="card-footer-item">
+                                    <span class="icon">
+                                        <i class="fa fa-download"></i>
+                                    </span>
+                                    <span>Download</span>
+                                </a>
+                                <a href="https://github.com/xtenzQ/QBrowser" class="card-footer-item">
+                                    <span class="icon">
+                                        <i class="fab fa-github"></i>
+                                    </span>
+                                    Source Code
+                                </a>
+                            </footer>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer has-text-centered">
+        <div class="container">
+            <div class="columns">
+                <div class="column is-8-desktop is-offset-2-desktop">
+                    <p>
+                        Development and design &copy; Nikita Rusetsky
+                    </p>
+                    <p>
+                        <small>
+                            You can overcome anything if you set your mind to it
+                        </small>
+                    </p>
+                    <p style="margin-top: 1rem;">
+                        <a href="http://bulma.io">
+                            <img src="made-with-bulma.png" alt="Made with Bulma" width="128" height="24">
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="lib/main.js"></script>
+    <script>
+        AOS.init();
+        
+        (function () {
+            var burger = document.querySelector('.burger');
+            var nav = document.querySelector('#' + burger.dataset.target);
+
+            burger.addEventListener('click', function () {
+                burger.classList.toggle('is-active');
+                nav.classList.toggle('is-active');
+            });
+        })();
+
+    </script>
+</body>
+
 </html>

@@ -1,0 +1,21 @@
+# Files
+
+.DS_Store
+.ruby-version
+.babelrc
+npm-debug.log
+package.json
+package-lock.json
+temp.txt
+
+# Folders
+
+.idea/
+.sass-cache
+_gh_pages
+_javascript
+_sass
+_site
+node_modules
+
+

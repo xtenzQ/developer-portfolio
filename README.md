@@ -1,2 +1,2 @@
 ## Yo
-Made with bulma
+Made with bulma and AOS framework

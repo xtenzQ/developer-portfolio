@@ -33,7 +33,7 @@
         fill: #8e44ad;
       }
 
-      .cls-2, .cls-22, .cls-37 {
+      .cls-2, .cls-23, .cls-38 {
         font-size: 200px;
       }
 
@@ -41,8 +41,12 @@
         fill: #fff;
       }
 
+      .cls-2, .cls-23, .cls-38, .cls-4, .cls-6 {
+        font-family: "Segoe UI";
+      }
+
       .cls-2, .cls-4, .cls-6 {
-        font-family: SegoeUI-Semilight, "Segoe UI";
+        font-weight: 600;
       }
 
       .cls-3 {
@@ -65,16 +69,16 @@
         fill: #794748;
       }
 
-      .cls-8, .cls-9 {
-        fill: #d8d8d8;
+      .cls-21, .cls-8, .cls-9 {
+        fill: #dadfe1;
       }
 
-      .cls-11, .cls-20, .cls-23, .cls-26, .cls-9 {
+      .cls-11, .cls-20, .cls-24, .cls-27, .cls-9 {
         fill-rule: evenodd;
       }
 
       .cls-10 {
-        fill: #ecba16;
+        fill: #ffc;
       }
 
       .cls-11, .cls-12 {
@@ -105,77 +109,73 @@
         fill: #6190de;
       }
 
-      .cls-21 {
-        fill: #acacac;
-        stroke-width: 35px;
-      }
-
-      .cls-21, .cls-27, .cls-28, .cls-29, .cls-30, .cls-31, .cls-32, .cls-33, .cls-34, .cls-35, .cls-36 {
+      .cls-21, .cls-28, .cls-29, .cls-30, .cls-31, .cls-32, .cls-33, .cls-34, .cls-35, .cls-36, .cls-37 {
         stroke: #959595;
       }
 
-      .cls-22 {
-        fill: #ccc;
-        font-weight: 800;
-      }
-
-      .cls-22, .cls-37 {
-        font-family: "Segoe UI";
-      }
-
-      .cls-23, .cls-24 {
-        fill: #fcd9a5;
-      }
-
-      .cls-25, .cls-26 {
-        fill: #5f3a17;
-      }
-
-      .cls-27 {
-        fill: #434a54;
-      }
-
-      .cls-27, .cls-28, .cls-29, .cls-30, .cls-31, .cls-32, .cls-33, .cls-34, .cls-35, .cls-36 {
+      .cls-21, .cls-22, .cls-28, .cls-29, .cls-30, .cls-31, .cls-32, .cls-33, .cls-34, .cls-35, .cls-36, .cls-37 {
         stroke-width: 1px;
       }
 
+      .cls-22 {
+        fill: #bdc3c7;
+        stroke: #dadfe1;
+      }
+
+      .cls-23 {
+        fill: #747677;
+        font-weight: 800;
+      }
+
+      .cls-24, .cls-25 {
+        fill: #fcd9a5;
+      }
+
+      .cls-26, .cls-27 {
+        fill: #5f3a17;
+      }
+
       .cls-28 {
-        fill: #ccd1d9;
+        fill: #434a54;
       }
 
       .cls-29 {
-        fill: #dd3f4e;
+        fill: #ccd1d9;
       }
 
       .cls-30 {
-        fill: #fecd4d;
+        fill: #dd3f4e;
       }
 
       .cls-31 {
-        fill: #44cfac;
+        fill: #fecd4d;
       }
 
       .cls-32 {
-        fill: #da80b4;
+        fill: #44cfac;
       }
 
       .cls-33 {
-        fill: #00afff;
+        fill: #da80b4;
       }
 
       .cls-34 {
-        fill: #8cd264;
+        fill: #00afff;
       }
 
       .cls-35 {
-        fill: #f6525d;
+        fill: #8cd264;
       }
 
       .cls-36 {
-        fill: #e2b541;
+        fill: #f6525d;
       }
 
       .cls-37 {
+        fill: #e2b541;
+      }
+
+      .cls-38 {
         fill: silver;
         font-weight: 700;
       }
@@ -183,16 +183,16 @@
   </defs>
   <g id="Background">
     <g>
-      <circle class="cls-1" cx="2443" cy="416" r="372"/>
-      <text id="Python" class="cls-2" transform="translate(2251.206 433.293) scale(0.635)">Python</text>
+      <circle class="cls-1" cx="2246" cy="565" r="372"/>
+      <text id="Python" class="cls-2" transform="translate(2027.21 607.292) scale(0.635)">Python</text>
     </g>
     <g>
-      <circle class="cls-3" cx="1970.5" cy="1338.5" r="380.5"/>
-      <text id="C_" data-name="C#" class="cls-4" transform="translate(1854.196 1397.576) scale(0.448)">C#</text>
+      <circle class="cls-3" cx="2164.5" cy="1669.5" r="435.5"/>
+      <text id="C_" data-name="C#" class="cls-4" transform="translate(2032.53 1737.117) scale(0.513)">C#</text>
     </g>
     <g>
-      <circle class="cls-5" cx="3850.5" cy="605.5" r="345.5"/>
-      <text id="Java" class="cls-6" transform="translate(3721.036 645.43) scale(0.527)">Java</text>
+      <circle class="cls-5" cx="3796.5" cy="788.5" r="356.5"/>
+      <text id="Java" class="cls-6" transform="translate(3662.912 829.702) scale(0.544)">Java</text>
     </g>
   </g>
   <g id="Table">
@@ -236,37 +236,38 @@
     <path class="cls-20" d="M3520.75,2088.24L3741,2047.4l32.82,176.98-220.25,40.84Z"/>
   </g>
   <g id="Laptop">
-    <path id="Rounded_Rectangle_1" data-name="Rounded Rectangle 1" class="cls-21" d="M2147,2135H3839a30,30,0,0,1,30,30v973a0,0,0,0,1,0,0H2117a0,0,0,0,1,0,0V2165A30,30,0,0,1,2147,2135Z"/>
-    <text id="_" data-name="&lt; / &gt;" class="cls-22" x="2783.195" y="2719.124">&lt; / &gt;</text>
+    <path id="Rounded_Rectangle_15" data-name="Rounded Rectangle 15" class="cls-21" d="M2147,2135H3839a30,30,0,0,1,30,30v970a0,0,0,0,1,0,0H2117a0,0,0,0,1,0,0V2165A30,30,0,0,1,2147,2135Z"/>
+    <path id="Rounded_Rectangle_1" data-name="Rounded Rectangle 1" class="cls-22" d="M2190,2173H3799a30,30,0,0,1,30,30v932a0,0,0,0,1,0,0H2160a0,0,0,0,1,0,0V2203A30,30,0,0,1,2190,2173Z"/>
+    <text id="_" data-name="&lt; / &gt;" class="cls-23" transform="translate(2739.196 2724.378)">&lt; / &gt;</text>
   </g>
   <g id="Head">
-    <path class="cls-23" d="M2630.14,883L2815,887.383l-6.15,297.607-184.86-4.38Z"/>
-    <ellipse class="cls-24" cx="2670.5" cy="888" rx="40.5" ry="34"/>
-    <path id="Polygon_1" data-name="Polygon 1" class="cls-23" d="M3356.44,1545.01l-336.38,202.65-342.04-186.38-5.66-389.02,336.38-202.653,342.04,186.373ZM3075,1040h315a10,10,0,0,1,10,10v183a10,10,0,0,1-10,10H3075a10,10,0,0,1-10-10V1050A10,10,0,0,1,3075,1040Z"/>
-    <rect class="cls-24" x="2877" y="1625" width="269" height="247"/>
-    <ellipse class="cls-24" cx="3011.5" cy="1872" rx="134.5" ry="125"/>
-    <path class="cls-23" d="M3477.26,1085.1c32.89,8.84,45.34,68.8,27.8,133.93s-58.43,110.73-91.32,101.89-45.34-68.81-27.8-133.93S3444.36,1076.25,3477.26,1085.1Z"/>
-    <path class="cls-23" d="M2543.89,1089.43c32.51-13.7,76.84,29.28,99.01,96s13.79,131.91-18.71,145.6-76.84-29.29-99.01-96S2511.39,1103.12,2543.89,1089.43Z"/>
-    <path id="Polygon_2" data-name="Polygon 2" class="cls-23" d="M3022.77,1693.6l-343.35-128.73-70.25-398.6,273.12-269.856,343.36,128.736,70.24,398.59Z"/>
-    <path id="Polygon_3" data-name="Polygon 3" class="cls-23" d="M3361.07,1535.54L3019.5,1660.62l-279.09-233.2,62.49-358.27,341.58-125.073,279.08,233.193Z"/>
-    <rect class="cls-24" x="2633" y="714" width="769" height="446"/>
+    <path class="cls-24" d="M2630.14,883L2815,887.383l-6.15,297.607-184.86-4.38Z"/>
+    <ellipse class="cls-25" cx="2670.5" cy="888" rx="40.5" ry="34"/>
+    <path id="Polygon_1" data-name="Polygon 1" class="cls-24" d="M3356.44,1545.01l-336.38,202.65-342.04-186.38-5.66-389.02,336.38-202.653,342.04,186.373ZM3075,1040h315a10,10,0,0,1,10,10v183a10,10,0,0,1-10,10H3075a10,10,0,0,1-10-10V1050A10,10,0,0,1,3075,1040Z"/>
+    <rect class="cls-25" x="2877" y="1625" width="269" height="247"/>
+    <ellipse class="cls-25" cx="3011.5" cy="1872" rx="134.5" ry="125"/>
+    <path class="cls-24" d="M3477.26,1085.1c32.89,8.84,45.34,68.8,27.8,133.93s-58.43,110.73-91.32,101.89-45.34-68.81-27.8-133.93S3444.36,1076.25,3477.26,1085.1Z"/>
+    <path class="cls-24" d="M2543.89,1089.43c32.51-13.7,76.84,29.28,99.01,96s13.79,131.91-18.71,145.6-76.84-29.29-99.01-96S2511.39,1103.12,2543.89,1089.43Z"/>
+    <path id="Polygon_2" data-name="Polygon 2" class="cls-24" d="M3022.77,1693.6l-343.35-128.73-70.25-398.6,273.12-269.856,343.36,128.736,70.24,398.59Z"/>
+    <path id="Polygon_3" data-name="Polygon 3" class="cls-24" d="M3361.07,1535.54L3019.5,1660.62l-279.09-233.2,62.49-358.27,341.58-125.073,279.08,233.193Z"/>
+    <rect class="cls-25" x="2633" y="714" width="769" height="446"/>
   </g>
   <g id="Hair">
-    <ellipse class="cls-25" cx="2885.5" cy="489.5" rx="310.5" ry="31.5"/>
-    <ellipse class="cls-25" cx="3030.5" cy="572.5" rx="303.5" ry="111.5"/>
-    <path id="Polygon_10" data-name="Polygon 10" class="cls-26" d="M3140,901.26l-180.78-35.115L3080.42,723.4Z"/>
-    <path id="Polygon_9" data-name="Polygon 9" class="cls-26" d="M3262.28,883.03l-148.92-15.348,87.63-121.472Z"/>
-    <path class="cls-26" d="M2725.65,591.034l13.14-16.38,16.38,13.141-13.14,16.38Z"/>
-    <path class="cls-26" d="M2650.47,684.005l479.52,16.051-6.47,169.949-479.51-16.051Z"/>
-    <path id="Polygon_7" data-name="Polygon 7" class="cls-26" d="M3397.4,757.525l73.49,183.529-70.12,202.436Z"/>
-    <ellipse class="cls-25" cx="2635.5" cy="611" rx="187.5" ry="17"/>
-    <path id="Polygon_6" data-name="Polygon 6" class="cls-26" d="M2632.78,903.01L2448.01,611.978l391.99,10.9Z"/>
-    <path class="cls-26" d="M2591.59,825.264l46.79-4.422,30.18,319.4-46.79,4.42Z"/>
-    <rect class="cls-25" x="3288" y="772" width="136" height="68"/>
-    <ellipse class="cls-25" cx="3421" cy="797.5" rx="19" ry="21.5"/>
-    <ellipse class="cls-25" cx="3453.5" cy="805" rx="31.5" ry="162"/>
-    <ellipse class="cls-25" cx="3127" cy="678.5" rx="344" ry="191.5"/>
-    <path id="Polygon_5" data-name="Polygon 5" class="cls-26" d="M2730.27,594L2575,491.062l279.02-8.055Z"/>
+    <ellipse class="cls-26" cx="2885.5" cy="489.5" rx="310.5" ry="31.5"/>
+    <ellipse class="cls-26" cx="3030.5" cy="572.5" rx="303.5" ry="111.5"/>
+    <path id="Polygon_10" data-name="Polygon 10" class="cls-27" d="M3140,901.26l-180.78-35.115L3080.42,723.4Z"/>
+    <path id="Polygon_9" data-name="Polygon 9" class="cls-27" d="M3262.28,883.03l-148.92-15.348,87.63-121.472Z"/>
+    <path class="cls-27" d="M2725.65,591.034l13.14-16.38,16.38,13.141-13.14,16.38Z"/>
+    <path class="cls-27" d="M2650.47,684.005l479.52,16.051-6.47,169.949-479.51-16.051Z"/>
+    <path id="Polygon_7" data-name="Polygon 7" class="cls-27" d="M3397.4,757.525l73.49,183.529-70.12,202.436Z"/>
+    <ellipse class="cls-26" cx="2635.5" cy="611" rx="187.5" ry="17"/>
+    <path id="Polygon_6" data-name="Polygon 6" class="cls-27" d="M2632.78,903.01L2448.01,611.978l391.99,10.9Z"/>
+    <path class="cls-27" d="M2591.59,825.264l46.79-4.422,30.18,319.4-46.79,4.42Z"/>
+    <rect class="cls-26" x="3288" y="772" width="136" height="68"/>
+    <ellipse class="cls-26" cx="3421" cy="797.5" rx="19" ry="21.5"/>
+    <ellipse class="cls-26" cx="3453.5" cy="805" rx="31.5" ry="162"/>
+    <ellipse class="cls-26" cx="3127" cy="678.5" rx="344" ry="191.5"/>
+    <path id="Polygon_5" data-name="Polygon 5" class="cls-27" d="M2730.27,594L2575,491.062l279.02-8.055Z"/>
   </g>
   <g id="Glasses">
     <g id="Left">
@@ -282,37 +283,37 @@
   <g id="Left_Window" data-name="Left Window">
     <g id="Window">
       <g>
-        <rect id="Rounded_Rectangle_13" data-name="Rounded Rectangle 13" class="cls-27" x="275" y="1359" width="1063" height="676" rx="50" ry="50"/>
-        <path id="Rounded_Rectangle_14" data-name="Rounded Rectangle 14" class="cls-28" d="M325,1359h963a50,50,0,0,1,50,50v120a0,0,0,0,1,0,0H275a0,0,0,0,1,0,0V1409A50,50,0,0,1,325,1359Z"/>
+        <rect id="Rounded_Rectangle_13" data-name="Rounded Rectangle 13" class="cls-28" x="275" y="1359" width="1063" height="676" rx="50" ry="50"/>
+        <path id="Rounded_Rectangle_14" data-name="Rounded Rectangle 14" class="cls-29" d="M325,1359h963a50,50,0,0,1,50,50v120a0,0,0,0,1,0,0H275a0,0,0,0,1,0,0V1409A50,50,0,0,1,325,1359Z"/>
       </g>
       <g>
-        <circle class="cls-29" cx="381" cy="1448" r="53"/>
-        <circle class="cls-30" cx="500" cy="1448" r="53"/>
-        <circle class="cls-31" cx="619" cy="1448" r="53"/>
+        <circle class="cls-30" cx="381" cy="1448" r="53"/>
+        <circle class="cls-31" cx="500" cy="1448" r="53"/>
+        <circle class="cls-32" cx="619" cy="1448" r="53"/>
       </g>
     </g>
-    <rect class="cls-32" x="326" y="1572" width="566" height="35"/>
-    <rect class="cls-32" x="328" y="1875" width="566" height="35"/>
-    <rect class="cls-33" x="924" y="1572" width="321" height="35"/>
-    <rect class="cls-33" x="326" y="1935" width="380" height="35"/>
-    <rect class="cls-30" x="326" y="1633" width="481" height="35"/>
-    <rect class="cls-34" x="326" y="1693" width="380" height="35"/>
-    <rect class="cls-35" x="326" y="1754" width="650" height="35"/>
-    <rect class="cls-36" x="328" y="1814" width="517" height="35"/>
-    <rect class="cls-36" x="872" y="1814" width="209" height="35"/>
+    <rect class="cls-33" x="326" y="1572" width="566" height="35"/>
+    <rect class="cls-33" x="328" y="1875" width="566" height="35"/>
+    <rect class="cls-34" x="924" y="1572" width="321" height="35"/>
+    <rect class="cls-34" x="326" y="1935" width="380" height="35"/>
+    <rect class="cls-31" x="326" y="1633" width="481" height="35"/>
+    <rect class="cls-35" x="326" y="1693" width="380" height="35"/>
+    <rect class="cls-36" x="326" y="1754" width="650" height="35"/>
+    <rect class="cls-37" x="328" y="1814" width="517" height="35"/>
+    <rect class="cls-37" x="872" y="1814" width="209" height="35"/>
   </g>
   <g id="Right_Window" data-name="Right Window">
     <g id="Window-2" data-name="Window">
       <g>
-        <rect id="Rounded_Rectangle_13-2" data-name="Rounded Rectangle 13" class="cls-27" x="4536" y="460" width="1063" height="676" rx="50" ry="50"/>
-        <path id="Rounded_Rectangle_14-2" data-name="Rounded Rectangle 14" class="cls-28" d="M4586,460h963a50,50,0,0,1,50,50V630a0,0,0,0,1,0,0H4536a0,0,0,0,1,0,0V510A50,50,0,0,1,4586,460Z"/>
+        <rect id="Rounded_Rectangle_13-2" data-name="Rounded Rectangle 13" class="cls-28" x="4536" y="460" width="1063" height="676" rx="50" ry="50"/>
+        <path id="Rounded_Rectangle_14-2" data-name="Rounded Rectangle 14" class="cls-29" d="M4586,460h963a50,50,0,0,1,50,50V630a0,0,0,0,1,0,0H4536a0,0,0,0,1,0,0V510A50,50,0,0,1,4586,460Z"/>
       </g>
       <g>
-        <circle class="cls-29" cx="4642" cy="549" r="53"/>
-        <circle class="cls-30" cx="4761" cy="549" r="53"/>
-        <circle class="cls-31" cx="4880" cy="549" r="53"/>
+        <circle class="cls-30" cx="4642" cy="549" r="53"/>
+        <circle class="cls-31" cx="4761" cy="549" r="53"/>
+        <circle class="cls-32" cx="4880" cy="549" r="53"/>
       </g>
-      <text id="_2" data-name="&lt; / &gt;" class="cls-37" x="4822.527" y="927.96">&lt; / &gt;</text>
+      <text id="_2" data-name="&lt; / &gt;" class="cls-38" x="4822.527" y="927.96">&lt; / &gt;</text>
     </g>
   </g>
 </svg>

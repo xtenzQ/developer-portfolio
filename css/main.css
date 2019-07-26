@@ -7391,6 +7391,14 @@ html {
 .card .card-footer {
   margin-top: auto; }
 
+.is-python {
+  background-color: #3572A5;
+  color: #fff; }
+
+.is-c-sharp {
+  background-color: #690081 !important;
+  color: #fff !important; }
+
 .card {
   display: flex;
   flex-direction: column;
@@ -7415,8 +7423,7 @@ html {
 
 /** Scroll **/
 ::-webkit-scrollbar {
-  width: 9px;
-  height: 9px; }
+  width: 9px; }
 
 ::-webkit-scrollbar-thumb {
   background: #00d1b2; }

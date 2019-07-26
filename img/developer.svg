@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="5073" height="2842" viewBox="0 0 5073 2842">
+<svg xmlns="http://www.w3.org/2000/svg" width="999.616" height="543.18" viewBox="0 0 6073 3300">
   <metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
 <x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c142 79.160924, 2017/07/13-01:06:39        ">
    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
@@ -30,167 +30,289 @@
 <defs>
     <style>
       .cls-1 {
-        fill: #794748;
+        fill: #8e44ad;
       }
 
-      .cls-1, .cls-10, .cls-11, .cls-12, .cls-15, .cls-2, .cls-21, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9 {
-        stroke: #959595;
+      .cls-2, .cls-22, .cls-37 {
+        font-size: 200px;
       }
 
-      .cls-1, .cls-10, .cls-11, .cls-12, .cls-13, .cls-14, .cls-17, .cls-18, .cls-19, .cls-2, .cls-20, .cls-21, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9 {
-        stroke-width: 1px;
-      }
-
-      .cls-2, .cls-3 {
-        fill: #b2b5c8;
-      }
-
-      .cls-14, .cls-17, .cls-20, .cls-3, .cls-5 {
-        fill-rule: evenodd;
-      }
-
-      .cls-4 {
-        fill: #ecba16;
-      }
-
-      .cls-5, .cls-6 {
-        fill: #868ba5;
-      }
-
-      .cls-7 {
-        fill: #183435;
-      }
-
-      .cls-8 {
+      .cls-14, .cls-2, .cls-4, .cls-6 {
         fill: #fff;
       }
 
-      .cls-9 {
-        fill: #992d2d;
+      .cls-2, .cls-4, .cls-6 {
+        font-family: SegoeUI-Semilight, "Segoe UI";
+      }
+
+      .cls-3 {
+        fill: #26a65b;
+      }
+
+      .cls-4 {
+        font-size: 400px;
+      }
+
+      .cls-5 {
+        fill: #f1c40f;
+      }
+
+      .cls-6 {
+        font-size: 250px;
+      }
+
+      .cls-7 {
+        fill: #794748;
+      }
+
+      .cls-8, .cls-9 {
+        fill: #d8d8d8;
+      }
+
+      .cls-11, .cls-20, .cls-23, .cls-26, .cls-9 {
+        fill-rule: evenodd;
       }
 
       .cls-10 {
-        fill: #378184;
+        fill: #ecba16;
       }
 
-      .cls-11 {
-        fill: #f6de74;
+      .cls-11, .cls-12 {
+        fill: #868ba5;
       }
 
-      .cls-12 {
-        fill: #eb4d2f;
-      }
-
-      .cls-13, .cls-14 {
-        fill: #6190de;
-        stroke: #3498db;
+      .cls-13 {
+        fill: #183435;
       }
 
       .cls-15 {
+        fill: #992d2d;
+      }
+
+      .cls-16 {
+        fill: #378184;
+      }
+
+      .cls-17 {
+        fill: #f6de74;
+      }
+
+      .cls-18 {
+        fill: #eb4d2f;
+      }
+
+      .cls-19, .cls-20 {
+        fill: #6190de;
+      }
+
+      .cls-21 {
         fill: #acacac;
         stroke-width: 35px;
       }
 
-      .cls-16 {
-        font-size: 200px;
+      .cls-21, .cls-27, .cls-28, .cls-29, .cls-30, .cls-31, .cls-32, .cls-33, .cls-34, .cls-35, .cls-36 {
+        stroke: #959595;
+      }
+
+      .cls-22 {
         fill: #ccc;
-        font-family: "Segoe UI";
         font-weight: 800;
       }
 
-      .cls-17, .cls-18 {
-        fill: #fcd9a5;
-        stroke: #fcd9a5;
+      .cls-22, .cls-37 {
+        font-family: "Segoe UI";
       }
 
-      .cls-19, .cls-20 {
+      .cls-23, .cls-24 {
+        fill: #fcd9a5;
+      }
+
+      .cls-25, .cls-26 {
         fill: #5f3a17;
-        stroke: #992d2d;
+      }
+
+      .cls-27 {
+        fill: #434a54;
+      }
+
+      .cls-27, .cls-28, .cls-29, .cls-30, .cls-31, .cls-32, .cls-33, .cls-34, .cls-35, .cls-36 {
+        stroke-width: 1px;
+      }
+
+      .cls-28 {
+        fill: #ccd1d9;
+      }
+
+      .cls-29 {
+        fill: #dd3f4e;
+      }
+
+      .cls-30 {
+        fill: #fecd4d;
+      }
+
+      .cls-31 {
+        fill: #44cfac;
+      }
+
+      .cls-32 {
+        fill: #da80b4;
+      }
+
+      .cls-33 {
+        fill: #00afff;
+      }
+
+      .cls-34 {
+        fill: #8cd264;
+      }
+
+      .cls-35 {
+        fill: #f6525d;
+      }
+
+      .cls-36 {
+        fill: #e2b541;
+      }
+
+      .cls-37 {
+        fill: silver;
+        font-weight: 700;
       }
     </style>
   </defs>
+  <g id="Background">
+    <g>
+      <circle class="cls-1" cx="2443" cy="416" r="372"/>
+      <text id="Python" class="cls-2" transform="translate(2251.206 433.293) scale(0.635)">Python</text>
+    </g>
+    <g>
+      <circle class="cls-3" cx="1970.5" cy="1338.5" r="380.5"/>
+      <text id="C_" data-name="C#" class="cls-4" transform="translate(1854.196 1397.576) scale(0.448)">C#</text>
+    </g>
+    <g>
+      <circle class="cls-5" cx="3850.5" cy="605.5" r="345.5"/>
+      <text id="Java" class="cls-6" transform="translate(3721.036 645.43) scale(0.527)">Java</text>
+    </g>
+  </g>
   <g id="Table">
-    <rect class="cls-1" y="2678" width="5073" height="164"/>
+    <rect class="cls-7" x="500" y="3136" width="5073" height="164"/>
   </g>
   <g id="Lamp">
-    <rect id="Rounded_Rectangle_10" data-name="Rounded Rectangle 10" class="cls-2" x="3760" y="2550" width="909" height="129" rx="50" ry="50"/>
-    <path class="cls-3" d="M4553.36,1916.38l80.5,61-319.37,421.39-80.49-61Z"/>
-    <path class="cls-3" d="M4099.4,1364.76l89.05-74.69,418.35,498.78-89.05,74.69Z"/>
-    <circle class="cls-4" cx="3814" cy="1376" r="115"/>
-    <path id="Rounded_Rectangle_11" data-name="Rounded Rectangle 11" class="cls-5" d="M4186.11,1131.59a143,143,0,0,1-35.08,199.17l-134.32,94.09a143,143,0,0,1-164.09-234.25l134.33-94.09A143,143,0,0,1,4186.11,1131.59Z"/>
-    <path id="Rounded_Rectangle_12" data-name="Rounded Rectangle 12" class="cls-3" d="M3991.98,1243.09l7.83,11.6c64.93,96.1,39.66,226.64-56.44,291.57l-42.26,28.55a10,10,0,0,1-13.89-2.69l-231.76-343.05a10,10,0,0,1,2.68-13.88l42.26-28.55C3796.51,1121.71,3927.05,1146.98,3991.98,1243.09Z"/>
-    <circle class="cls-6" cx="4215" cy="2435" r="116"/>
-    <circle class="cls-6" cx="4634" cy="1894" r="116"/>
+    <rect id="Rounded_Rectangle_10" data-name="Rounded Rectangle 10" class="cls-8" x="4260" y="3008" width="909" height="129" rx="50" ry="50"/>
+    <path class="cls-9" d="M5053.36,2374.38l80.5,61-319.37,421.39-80.49-61Z"/>
+    <path class="cls-9" d="M4599.4,1822.76l89.05-74.69,418.35,498.78-89.05,74.69Z"/>
+    <circle class="cls-10" cx="4314" cy="1834" r="115"/>
+    <path id="Rounded_Rectangle_11" data-name="Rounded Rectangle 11" class="cls-11" d="M4686.11,1589.59a143,143,0,0,1-35.08,199.17l-134.32,94.09a143,143,0,0,1-164.09-234.25l134.33-94.09A143,143,0,0,1,4686.11,1589.59Z"/>
+    <path id="Rounded_Rectangle_12" data-name="Rounded Rectangle 12" class="cls-9" d="M4491.98,1701.09l7.83,11.6c64.93,96.1,39.66,226.64-56.44,291.57l-42.26,28.55a10,10,0,0,1-13.89-2.69l-231.76-343.05a10,10,0,0,1,2.68-13.88l42.26-28.55C4296.51,1579.71,4427.05,1604.98,4491.98,1701.09Z"/>
+    <circle class="cls-12" cx="4715" cy="2893" r="116"/>
+    <circle class="cls-12" cx="5134" cy="2352" r="116"/>
   </g>
   <g id="Books">
     <g id="_1st_book" data-name="1st book">
-      <rect id="Rounded_Rectangle_4" data-name="Rounded Rectangle 4" class="cls-7" x="505" y="2496" width="743" height="181" rx="10" ry="10"/>
-      <path id="Rounded_Rectangle_5" data-name="Rounded Rectangle 5" class="cls-8" d="M540,2518H854a0,0,0,0,1,0,0v140a0,0,0,0,1,0,0H540a10,10,0,0,1-10-10V2528A10,10,0,0,1,540,2518Z"/>
+      <rect id="Rounded_Rectangle_4" data-name="Rounded Rectangle 4" class="cls-13" x="1005" y="2954" width="743" height="181" rx="10" ry="10"/>
+      <path id="Rounded_Rectangle_5" data-name="Rounded Rectangle 5" class="cls-14" d="M1040,2976h314a0,0,0,0,1,0,0v140a0,0,0,0,1,0,0H1040a10,10,0,0,1-10-10V2986A10,10,0,0,1,1040,2976Z"/>
     </g>
     <g id="_2nd_book" data-name="2nd book">
-      <rect id="Rounded_Rectangle_6" data-name="Rounded Rectangle 6" class="cls-9" x="681" y="2371" width="615" height="125" rx="10" ry="10"/>
-      <rect id="Rounded_Rectangle_7" data-name="Rounded Rectangle 7" class="cls-8" x="701" y="2394" width="329" height="81"/>
+      <rect id="Rounded_Rectangle_6" data-name="Rounded Rectangle 6" class="cls-15" x="1181" y="2829" width="615" height="125" rx="10" ry="10"/>
+      <rect id="Rounded_Rectangle_7" data-name="Rounded Rectangle 7" class="cls-14" x="1201" y="2852" width="329" height="81"/>
     </g>
     <g id="_3rd_book" data-name="3rd book">
-      <path id="Rounded_Rectangle_8" data-name="Rounded Rectangle 8" class="cls-10" d="M743,2273h484a30,30,0,0,1,30,30v38a30,30,0,0,1-30,30H743a0,0,0,0,1,0,0v-98A0,0,0,0,1,743,2273Z"/>
-      <path id="Rounded_Rectangle_8-2" data-name="Rounded Rectangle 8" class="cls-8" d="M751,2290h458a30,30,0,0,1,30,30v8a30,30,0,0,1-30,30H751a0,0,0,0,1,0,0v-68A0,0,0,0,1,751,2290Z"/>
+      <path id="Rounded_Rectangle_8" data-name="Rounded Rectangle 8" class="cls-16" d="M1243,2731h484a30,30,0,0,1,30,30v38a30,30,0,0,1-30,30H1243a0,0,0,0,1,0,0v-98A0,0,0,0,1,1243,2731Z"/>
+      <path id="Rounded_Rectangle_8-2" data-name="Rounded Rectangle 8" class="cls-14" d="M1251,2748h458a30,30,0,0,1,30,30v8a30,30,0,0,1-30,30H1251a0,0,0,0,1,0,0v-68A0,0,0,0,1,1251,2748Z"/>
     </g>
     <g id="_4th_book" data-name="4th book">
-      <path id="Rounded_Rectangle_8-3" data-name="Rounded Rectangle 8" class="cls-11" d="M711,2174h473a0,0,0,0,1,0,0v98a0,0,0,0,1,0,0H711a30,30,0,0,1-30-30v-38A30,30,0,0,1,711,2174Z"/>
-      <rect class="cls-9" x="730" y="2173" width="42" height="98"/>
+      <path id="Rounded_Rectangle_8-3" data-name="Rounded Rectangle 8" class="cls-17" d="M1211,2632h473a0,0,0,0,1,0,0v98a0,0,0,0,1,0,0H1211a30,30,0,0,1-30-30v-38A30,30,0,0,1,1211,2632Z"/>
+      <rect class="cls-15" x="1230" y="2631" width="42" height="98"/>
     </g>
     <g id="_5h_book" data-name="5h book">
-      <path id="Rounded_Rectangle_9" data-name="Rounded Rectangle 9" class="cls-12" d="M649,2081h441a0,0,0,0,1,0,0v92a0,0,0,0,1,0,0H649a30,30,0,0,1-30-30v-32A30,30,0,0,1,649,2081Z"/>
+      <path id="Rounded_Rectangle_9" data-name="Rounded Rectangle 9" class="cls-18" d="M1149,2539h441a0,0,0,0,1,0,0v92a0,0,0,0,1,0,0H1149a30,30,0,0,1-30-30v-32A30,30,0,0,1,1149,2539Z"/>
     </g>
-    <path id="Rounded_Rectangle_9-2" data-name="Rounded Rectangle 9" class="cls-8" d="M664,2096h426a0,0,0,0,1,0,0v62a0,0,0,0,1,0,0H664a30,30,0,0,1-30-30v-2A30,30,0,0,1,664,2096Z"/>
+    <path id="Rounded_Rectangle_9-2" data-name="Rounded Rectangle 9" class="cls-14" d="M1164,2554h426a0,0,0,0,1,0,0v62a0,0,0,0,1,0,0H1164a30,30,0,0,1-30-30v-2A30,30,0,0,1,1164,2554Z"/>
   </g>
   <g id="Body">
-    <ellipse class="cls-13" cx="2530" cy="1612" rx="711" ry="260"/>
-    <path class="cls-14" d="M1835.97,1552.68L2124,1665.77l-100.87,256.9L1735.1,1809.59Z"/>
-    <path class="cls-14" d="M3020.75,1630.24L3241,1589.4l32.82,176.98-220.25,40.84Z"/>
+    <ellipse class="cls-19" cx="3030" cy="2070" rx="711" ry="260"/>
+    <path class="cls-20" d="M2335.97,2010.68L2624,2123.77l-100.87,256.9L2235.1,2267.59Z"/>
+    <path class="cls-20" d="M3520.75,2088.24L3741,2047.4l32.82,176.98-220.25,40.84Z"/>
   </g>
   <g id="Laptop">
-    <path id="Rounded_Rectangle_1" data-name="Rounded Rectangle 1" class="cls-15" d="M1647,1677H3339a30,30,0,0,1,30,30v973a0,0,0,0,1,0,0H1617a0,0,0,0,1,0,0V1707A30,30,0,0,1,1647,1677Z"/>
-    <text id="_" data-name="&lt; / &gt;" class="cls-16" x="2283.195" y="2261.124">&lt; / &gt;</text>
+    <path id="Rounded_Rectangle_1" data-name="Rounded Rectangle 1" class="cls-21" d="M2147,2135H3839a30,30,0,0,1,30,30v973a0,0,0,0,1,0,0H2117a0,0,0,0,1,0,0V2165A30,30,0,0,1,2147,2135Z"/>
+    <text id="_" data-name="&lt; / &gt;" class="cls-22" x="2783.195" y="2719.124">&lt; / &gt;</text>
   </g>
   <g id="Head">
-    <path class="cls-17" d="M2130.14,425L2315,429.383l-6.15,297.611-184.86-4.384Z"/>
-    <ellipse class="cls-18" cx="2170.5" cy="430" rx="40.5" ry="34"/>
-    <path id="Polygon_1" data-name="Polygon 1" class="cls-17" d="M2856.44,1087.01l-336.38,202.65-342.04-186.38-5.66-389.024,336.38-202.649,342.04,186.378ZM2575,582h315a10,10,0,0,1,10,10V775a10,10,0,0,1-10,10H2575a10,10,0,0,1-10-10V592A10,10,0,0,1,2575,582Z"/>
-    <rect class="cls-18" x="2377" y="1167" width="269" height="247"/>
-    <ellipse class="cls-18" cx="2511.5" cy="1414" rx="134.5" ry="125"/>
-    <path class="cls-17" d="M2977.26,627.1c32.89,8.847,45.34,68.81,27.8,133.93s-58.43,110.739-91.32,101.892-45.34-68.809-27.8-133.929S2944.36,618.248,2977.26,627.1Z"/>
-    <path class="cls-17" d="M2043.89,631.426c32.51-13.7,76.84,29.289,99.01,96.006s13.79,131.9-18.71,145.6-76.84-29.288-99.01-96.006S2011.39,645.121,2043.89,631.426Z"/>
-    <path id="Polygon_2" data-name="Polygon 2" class="cls-17" d="M2522.77,1235.6l-343.35-128.73-70.25-398.6,273.12-269.859,343.36,128.735,70.24,398.6Z"/>
-    <path id="Polygon_3" data-name="Polygon 3" class="cls-17" d="M2861.07,1077.54L2519.5,1202.62,2240.41,969.425l62.49-358.271,341.58-125.077,279.08,233.194Z"/>
-    <rect class="cls-18" x="2133" y="256" width="769" height="446"/>
+    <path class="cls-23" d="M2630.14,883L2815,887.383l-6.15,297.607-184.86-4.38Z"/>
+    <ellipse class="cls-24" cx="2670.5" cy="888" rx="40.5" ry="34"/>
+    <path id="Polygon_1" data-name="Polygon 1" class="cls-23" d="M3356.44,1545.01l-336.38,202.65-342.04-186.38-5.66-389.02,336.38-202.653,342.04,186.373ZM3075,1040h315a10,10,0,0,1,10,10v183a10,10,0,0,1-10,10H3075a10,10,0,0,1-10-10V1050A10,10,0,0,1,3075,1040Z"/>
+    <rect class="cls-24" x="2877" y="1625" width="269" height="247"/>
+    <ellipse class="cls-24" cx="3011.5" cy="1872" rx="134.5" ry="125"/>
+    <path class="cls-23" d="M3477.26,1085.1c32.89,8.84,45.34,68.8,27.8,133.93s-58.43,110.73-91.32,101.89-45.34-68.81-27.8-133.93S3444.36,1076.25,3477.26,1085.1Z"/>
+    <path class="cls-23" d="M2543.89,1089.43c32.51-13.7,76.84,29.28,99.01,96s13.79,131.91-18.71,145.6-76.84-29.29-99.01-96S2511.39,1103.12,2543.89,1089.43Z"/>
+    <path id="Polygon_2" data-name="Polygon 2" class="cls-23" d="M3022.77,1693.6l-343.35-128.73-70.25-398.6,273.12-269.856,343.36,128.736,70.24,398.59Z"/>
+    <path id="Polygon_3" data-name="Polygon 3" class="cls-23" d="M3361.07,1535.54L3019.5,1660.62l-279.09-233.2,62.49-358.27,341.58-125.073,279.08,233.193Z"/>
+    <rect class="cls-24" x="2633" y="714" width="769" height="446"/>
   </g>
   <g id="Hair">
-    <ellipse class="cls-19" cx="2385.5" cy="31.5" rx="310.5" ry="31.5"/>
-    <ellipse class="cls-19" cx="2530.5" cy="114.5" rx="303.5" ry="111.5"/>
-    <path id="Polygon_10" data-name="Polygon 10" class="cls-20" d="M2640,443.26l-180.78-35.115L2580.42,265.4Z"/>
-    <path id="Polygon_9" data-name="Polygon 9" class="cls-20" d="M2762.28,425.031l-148.92-15.349,87.63-121.472Z"/>
-    <path class="cls-20" d="M2225.65,133.034l13.14-16.38,16.38,13.141-13.14,16.38Z"/>
-    <path class="cls-20" d="M2150.48,226.005l479.51,16.051-6.47,169.949-479.51-16.051Z"/>
-    <path id="Polygon_7" data-name="Polygon 7" class="cls-20" d="M2897.41,299.525l73.48,183.529L2900.77,685.49Z"/>
-    <ellipse class="cls-19" cx="2135.5" cy="153" rx="187.5" ry="17"/>
-    <path id="Polygon_6" data-name="Polygon 6" class="cls-20" d="M2132.78,445.01L1948.01,153.978l391.99,10.9Z"/>
-    <path class="cls-20" d="M2091.59,367.264l46.79-4.422,30.18,319.4-46.79,4.422Z"/>
-    <rect class="cls-19" x="2788" y="314" width="136" height="68"/>
-    <ellipse class="cls-19" cx="2921" cy="339.5" rx="19" ry="21.5"/>
-    <ellipse class="cls-19" cx="2953.5" cy="347" rx="31.5" ry="162"/>
-    <ellipse class="cls-19" cx="2627" cy="220.5" rx="344" ry="191.5"/>
-    <path id="Polygon_5" data-name="Polygon 5" class="cls-20" d="M2230.27,136L2075,33.062l279.02-8.055Z"/>
+    <ellipse class="cls-25" cx="2885.5" cy="489.5" rx="310.5" ry="31.5"/>
+    <ellipse class="cls-25" cx="3030.5" cy="572.5" rx="303.5" ry="111.5"/>
+    <path id="Polygon_10" data-name="Polygon 10" class="cls-26" d="M3140,901.26l-180.78-35.115L3080.42,723.4Z"/>
+    <path id="Polygon_9" data-name="Polygon 9" class="cls-26" d="M3262.28,883.03l-148.92-15.348,87.63-121.472Z"/>
+    <path class="cls-26" d="M2725.65,591.034l13.14-16.38,16.38,13.141-13.14,16.38Z"/>
+    <path class="cls-26" d="M2650.47,684.005l479.52,16.051-6.47,169.949-479.51-16.051Z"/>
+    <path id="Polygon_7" data-name="Polygon 7" class="cls-26" d="M3397.4,757.525l73.49,183.529-70.12,202.436Z"/>
+    <ellipse class="cls-25" cx="2635.5" cy="611" rx="187.5" ry="17"/>
+    <path id="Polygon_6" data-name="Polygon 6" class="cls-26" d="M2632.78,903.01L2448.01,611.978l391.99,10.9Z"/>
+    <path class="cls-26" d="M2591.59,825.264l46.79-4.422,30.18,319.4-46.79,4.42Z"/>
+    <rect class="cls-25" x="3288" y="772" width="136" height="68"/>
+    <ellipse class="cls-25" cx="3421" cy="797.5" rx="19" ry="21.5"/>
+    <ellipse class="cls-25" cx="3453.5" cy="805" rx="31.5" ry="162"/>
+    <ellipse class="cls-25" cx="3127" cy="678.5" rx="344" ry="191.5"/>
+    <path id="Polygon_5" data-name="Polygon 5" class="cls-26" d="M2730.27,594L2575,491.062l279.02-8.055Z"/>
   </g>
   <g id="Glasses">
     <g id="Left">
-      <rect id="Rounded_Rectangle_2" data-name="Rounded Rectangle 2" class="cls-21" x="2550" y="576" width="350" height="243" rx="40" ry="40"/>
-      <rect id="Rounded_Rectangle_2-2" data-name="Rounded Rectangle 2" class="cls-8" x="2576.41" y="600" width="297.18" height="190.188" rx="30" ry="30"/>
+      <rect id="Rounded_Rectangle_2" data-name="Rounded Rectangle 2" x="3050" y="1034" width="350" height="243" rx="40" ry="40"/>
+      <rect id="Rounded_Rectangle_2-2" data-name="Rounded Rectangle 2" class="cls-14" x="3076.41" y="1058" width="297.18" height="190.19" rx="30" ry="30"/>
     </g>
     <g id="Right">
-      <rect id="Rounded_Rectangle_2-3" data-name="Rounded Rectangle 2" class="cls-21" x="2118" y="576" width="350" height="243" rx="40" ry="40"/>
-      <rect id="Rounded_Rectangle_2-4" data-name="Rounded Rectangle 2" class="cls-8" x="2144.41" y="600" width="297.18" height="190.188" rx="30" ry="30"/>
+      <rect id="Rounded_Rectangle_2-3" data-name="Rounded Rectangle 2" x="2618" y="1034" width="350" height="243" rx="40" ry="40"/>
+      <rect id="Rounded_Rectangle_2-4" data-name="Rounded Rectangle 2" class="cls-14" x="2644.41" y="1058" width="297.18" height="190.19" rx="30" ry="30"/>
     </g>
-    <rect id="Rounded_Rectangle_3" data-name="Rounded Rectangle 3" class="cls-21" x="2442" y="609" width="134" height="56" rx="10" ry="10"/>
+    <rect id="Rounded_Rectangle_3" data-name="Rounded Rectangle 3" x="2942" y="1067" width="134" height="56" rx="10" ry="10"/>
+  </g>
+  <g id="Left_Window" data-name="Left Window">
+    <g id="Window">
+      <g>
+        <rect id="Rounded_Rectangle_13" data-name="Rounded Rectangle 13" class="cls-27" x="275" y="1359" width="1063" height="676" rx="50" ry="50"/>
+        <path id="Rounded_Rectangle_14" data-name="Rounded Rectangle 14" class="cls-28" d="M325,1359h963a50,50,0,0,1,50,50v120a0,0,0,0,1,0,0H275a0,0,0,0,1,0,0V1409A50,50,0,0,1,325,1359Z"/>
+      </g>
+      <g>
+        <circle class="cls-29" cx="381" cy="1448" r="53"/>
+        <circle class="cls-30" cx="500" cy="1448" r="53"/>
+        <circle class="cls-31" cx="619" cy="1448" r="53"/>
+      </g>
+    </g>
+    <rect class="cls-32" x="326" y="1572" width="566" height="35"/>
+    <rect class="cls-32" x="328" y="1875" width="566" height="35"/>
+    <rect class="cls-33" x="924" y="1572" width="321" height="35"/>
+    <rect class="cls-33" x="326" y="1935" width="380" height="35"/>
+    <rect class="cls-30" x="326" y="1633" width="481" height="35"/>
+    <rect class="cls-34" x="326" y="1693" width="380" height="35"/>
+    <rect class="cls-35" x="326" y="1754" width="650" height="35"/>
+    <rect class="cls-36" x="328" y="1814" width="517" height="35"/>
+    <rect class="cls-36" x="872" y="1814" width="209" height="35"/>
+  </g>
+  <g id="Right_Window" data-name="Right Window">
+    <g id="Window-2" data-name="Window">
+      <g>
+        <rect id="Rounded_Rectangle_13-2" data-name="Rounded Rectangle 13" class="cls-27" x="4536" y="460" width="1063" height="676" rx="50" ry="50"/>
+        <path id="Rounded_Rectangle_14-2" data-name="Rounded Rectangle 14" class="cls-28" d="M4586,460h963a50,50,0,0,1,50,50V630a0,0,0,0,1,0,0H4536a0,0,0,0,1,0,0V510A50,50,0,0,1,4586,460Z"/>
+      </g>
+      <g>
+        <circle class="cls-29" cx="4642" cy="549" r="53"/>
+        <circle class="cls-30" cx="4761" cy="549" r="53"/>
+        <circle class="cls-31" cx="4880" cy="549" r="53"/>
+      </g>
+      <text id="_2" data-name="&lt; / &gt;" class="cls-37" x="4822.527" y="927.96">&lt; / &gt;</text>
+    </g>
   </g>
 </svg>

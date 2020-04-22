@@ -7370,7 +7370,7 @@ html {
   html {
     scroll-behavior: auto; } }
 
-#skills, #conferences, #projects {
+#experience, #education, #projects {
   background-color: whitesmoke; }
 
 .footer {
@@ -7403,6 +7403,14 @@ html {
   display: flex;
   flex-direction: column;
   height: 100%; }
+
+#experience ul {
+  margin-top: 0;
+}
+
+#experience p {
+  margin-bottom: 6px;
+}
 
 .content-wrapper {
   margin-top: 3rem; }

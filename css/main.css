@@ -7404,9 +7404,12 @@ html {
   flex-direction: column;
   height: 100%; }
 
-#experience ul {
-  margin-top: 0;
+.external {
+  color: #000;
 }
+
+#experience ul {
+  margin-top: 0; }
 
 #experience p {
   margin-bottom: 6px;

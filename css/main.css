@@ -7388,6 +7388,10 @@ html {
 .uni {
   margin: 1em auto; }
 
+.description {
+  font-size: 16px;
+}
+
 .card .card-footer {
   margin-top: auto; }
 
@@ -7406,6 +7410,14 @@ html {
 
 .external {
   color: #000;
+}
+
+#skills .tag {
+  font-size: 12px;
+}
+
+.has-text-weight-upper-light {
+  font-weight: 500 !important;
 }
 
 #experience ul {

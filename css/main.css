@@ -7410,6 +7410,7 @@ html {
 
 .external {
   color: #000;
+  padding-left: 3px;
 }
 
 #skills .tag {

@@ -7417,8 +7417,11 @@ html {
   font-size: 12px;
 }
 
-.right-separator {
+.date {
   width: 170px;
+}
+
+.right-separator {
   text-align: right;
   padding-right: 10px;
   margin-right: 10px;
@@ -7427,9 +7430,10 @@ html {
 
 @media screen and (max-width: 768px) { 
   .right-separator {
+    text-align: left;
     border-right: 0px;
     border-bottom: 5px #00d1b2 solid;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
   }
 }
 

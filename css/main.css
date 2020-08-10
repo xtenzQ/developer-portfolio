@@ -7450,6 +7450,10 @@ html {
     display: block;
     content: '';
   }
+
+  #skills .content ul {
+    margin-left: 0;
+  }
 }
 
 .has-text-weight-upper-light {
@@ -7461,6 +7465,54 @@ html {
 
 #experience p {
   margin-bottom: 6px;
+}
+
+.iconify {
+  height: 50px;
+  width: 50px;
+}
+
+.dev-icons {
+  padding-left: 0;
+  list-style: none;
+  font-size: 3rem;
+  margin-bottom: 0;
+  margin-top: 0;
+  text-align: center;
+}
+
+.dev-icons ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+.dev-icons .software-skill-inline {
+  display: inline-block;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.dev-icons li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+
+.dev-icons li i {
+  color: #00d1b2;
+}
+
+.dev-icons li p {
+  font-size: 12px;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
 
 .content-wrapper {

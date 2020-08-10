@@ -7456,6 +7456,10 @@ html {
   }
 }
 
+#skills .content ul {
+  margin-top: 0;
+}
+
 .has-text-weight-upper-light {
   font-weight: 500 !important;
 }
@@ -7470,6 +7474,12 @@ html {
 .iconify {
   height: 50px;
   width: 50px;
+  color: lightgrey;
+  transition: 1s;
+}
+
+.iconify:hover {
+  color: #00d1b2;
 }
 
 .dev-icons {

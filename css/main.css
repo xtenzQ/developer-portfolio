@@ -7388,10 +7388,6 @@ html {
 .uni {
   margin: 1em auto; }
 
-.description {
-  font-size: 16px;
-}
-
 .card .card-footer {
   margin-top: auto; }
 
@@ -7421,6 +7417,19 @@ html {
   width: 170px;
 }
 
+.description span::after {
+  padding: 0 10px;
+  content: '•'
+}
+
+.description {
+  margin: 0;
+}
+
+.description > span:last-of-type::after {
+  content: '';
+}
+
 .right-separator {
   text-align: right;
   padding-right: 10px;
@@ -7434,6 +7443,12 @@ html {
     border-right: 0px;
     border-bottom: 5px #00d1b2 solid;
     margin-bottom: 5px;
+  }
+
+  .description span::after {
+    padding: 0 1px;
+    display: block;
+    content: '';
   }
 }
 

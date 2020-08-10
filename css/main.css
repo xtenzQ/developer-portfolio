@@ -7417,6 +7417,24 @@ html {
   font-size: 12px;
 }
 
+.right-separator {
+  width: 170px;
+  text-align: right;
+  padding-right: 10px;
+  margin-right: 10px;
+  border-right: 5px #00d1b2 solid;
+}
+
+@media screen and (max-width: 768px) { 
+  .right-separator {
+    border-right: 0px;
+    border-bottom: 5px #00d1b2 solid;
+    margin-bottom: 15px;
+  }
+}
+
+
+
 .has-text-weight-upper-light {
   font-weight: 500 !important;
 }

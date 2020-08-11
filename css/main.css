@@ -7393,6 +7393,10 @@ html {
   margin-bottom: 3em !important;
 }
 
+.job {
+  margin-bottom: 1em;
+}
+
 .card .card-footer {
   margin-top: auto; }
 

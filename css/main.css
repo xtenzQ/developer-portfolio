@@ -7385,8 +7385,13 @@ html {
   height: 1px;
   margin-bottom: 32px; }
 
+.uni:first-of-type {
+  margin-top: 1em !important;
+}
+
 .uni {
-  margin: 1em auto; }
+  margin-bottom: 3em !important;
+}
 
 .card .card-footer {
   margin-top: auto; }
@@ -7514,12 +7519,18 @@ html {
 }
 
 .dev-icons li p {
+  color: gray;
   font-size: 12px;
   display: block;
   margin-block-start: 1em;
   margin-block-end: 1em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
+}
+
+.dev-icons li p:hover {
+  color: black;
+  transition: 1s;
 }
 
 .content-wrapper {

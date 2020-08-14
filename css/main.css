@@ -7397,6 +7397,16 @@ html {
   margin-bottom: 1em;
 }
 
+.desc ul {
+  list-style: none
+}
+
+.desc ul li {
+  padding-left: 10px;
+  border-left: 5px lightgray solid;
+  color: black
+}
+
 .card .card-footer {
   margin-top: auto; }
 

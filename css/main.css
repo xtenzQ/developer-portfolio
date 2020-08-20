@@ -7437,7 +7437,7 @@ html {
 }
 
 .description span::after {
-  padding: 0 10px;
+  padding: 0 8px;
   content: '•'
 }
 

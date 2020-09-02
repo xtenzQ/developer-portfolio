@@ -7576,3 +7576,11 @@ html {
 
 .also {
   margin: 3% 0 !important; }
+
+
+.header-image {
+  background-image: url("../img/inha/maingate_logo.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

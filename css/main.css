@@ -7577,6 +7577,9 @@ html {
 .also {
   margin: 3% 0 !important; }
 
+nav .icon {
+  padding-right: 10px;
+}
 
 .header-image {
   background-image: url("../img/inha/maingate_logo.jpg");

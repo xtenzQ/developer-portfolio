@@ -7977,6 +7977,12 @@ a {
 .tile-image {
   margin: 0 auto; }
 
+.text-muted {
+  color: #6c757d; }
+
+.article-link {
+  text-decoration: none !important; }
+
 .award {
   display: flex;
   height: 100%; }

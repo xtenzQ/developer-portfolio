@@ -7983,6 +7983,13 @@ a {
 .article-link {
   text-decoration: none !important; }
 
+.message {
+  display: flex;
+  flex-direction: column;
+  height: 100%; }
+  .message .message-body {
+    height: 100%; }
+
 .award {
   display: flex;
   height: 100%; }

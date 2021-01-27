@@ -7751,8 +7751,14 @@ a {
 .csharp, .net {
   color: #7b3399; }
 
+.java {
+  color: #007396; }
+
 .kotlin {
   color: #0095D5; }
+
+.bootstrap {
+  color: #7952B3; }
 
 .c {
   color: #A8B9CC; }
@@ -7766,8 +7772,32 @@ a {
 .flask {
   color: #000000; }
 
+.typescript {
+  color: #3178C6; }
+
+.opencv {
+  color: #5C3EE8; }
+
+.bulma {
+  color: #00D1B2; }
+
+.react {
+  color: #61DAFB; }
+
 .skills-boxes {
   font-size: 14px; }
+
+.webstorm, .pycharm, .idea {
+  width: 36px; }
+
+.webstorm {
+  border: 3px #00cdd7 solid; }
+
+.pycharm {
+  border: 3px #21d789 solid; }
+
+.idea {
+  border: 3px #fe315d solid; }
 
 .job {
   margin: 1.25em 0 0 0; }

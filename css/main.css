@@ -12921,6 +12921,12 @@ nav {
   #skills .opencv:hover {
     color: #fff;
     background-color: #5C3EE8; }
+  #skills .js:hover {
+    color: #000;
+    background-color: #F7DF1E; }
+  #skills .dojo:hover {
+    color: #fff;
+    background-color: #f02541; }
 
 #edu-exp {
   font-family: 'Poppins', sans-serif;

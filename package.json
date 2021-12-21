@@ -32,7 +32,7 @@
     "node-sass": "https://registry.npmjs.org/node-sass/-/node-sass-7.0.0.tgz"
   },
   "scripts": {
-    "preinstall": "npx npm-force-resolutions",
+    "node-sass": "node-sass --output-style compressed -o dist/css src/scss",
     "css-html-js": "npm run css-build && npm run html-build && npm run build:js",
     "css-html": "npm run css-build && npm run html-build",
     "build-all": "npm run css-build && npm run html-build && npm run build-img && npm run build:js",

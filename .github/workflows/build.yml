@@ -32,10 +32,10 @@ jobs:
           node-version: 17.0.1
 
       - name: install dependencies
-      - run: npm ci
+        run: npm ci
 
       - name: build
-      - run: npm run build-all
+        run: npm run build-all
 
       - name: deploy
         uses: peaceiris/actions-gh-pages@v3

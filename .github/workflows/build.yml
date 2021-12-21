@@ -30,8 +30,6 @@ jobs:
         os: [ ubuntu-latest, windows-latest, macos-latest ]
     needs: install
     steps:
-      - uses: actions/checkout@v2
-
       - name: build site
         run: npm run build-all
 
@@ -40,8 +38,6 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     steps:
-      - uses: actions/checkout@v2
-
       - name: deploy
         uses: peaceiris/actions-gh-pages@v3
         with:

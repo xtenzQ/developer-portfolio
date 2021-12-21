@@ -30,7 +30,7 @@
   },
   "scripts": {
     "build-all": "npm run css-build && npm run html-build && npm run build-img && npm run build:js",
-    "css-build": "node-sass --omit-source-map-url src/styles/_all.sass dist/css/main.css && npm run minify-all",
+    "css-build": "node-sass --omit-source-map-url src/styles/_all.sass dist/css/main.css",
     "minify-all": "minify dist/css/main.css > dist/css/main.min.css",
     "css-html-js": "npm run css-build && npm run html-build && npm run build:js",
     "html-build": "posthtml -c posthtml.json",

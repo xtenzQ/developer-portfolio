@@ -33,10 +33,10 @@ jobs:
           node-version: 17.0.1
 
       - name: install dependencies
-      run: npm ci
+        run: npm ci
 
       - name: build site
-      run: npm run build-all
+        run: npm run build-all
 
   deploy:
     name: deploy

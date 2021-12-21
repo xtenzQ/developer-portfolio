@@ -28,17 +28,13 @@
     "webpack": "^5.65.0",
     "webpack-cli": "^4.9.1"
   },
-  "resolutions": {
-    "node-sass": "https://registry.npmjs.org/node-sass/-/node-sass-7.0.0.tgz"
-  },
   "scripts": {
-    "preinstall": "npx npm-force-resolutions",
-    "css-html-js": "npm run css-build && npm run html-build && npm run build:js",
-    "css-html": "npm run css-build && npm run html-build",
     "build-all": "npm run css-build && npm run html-build && npm run build-img && npm run build:js",
     "css-build": "node-sass --omit-source-map-url src/styles/_all.sass dist/css/main.css && npm run minify-all",
     "minify-all": "minify dist/css/main.css > dist/css/main.min.css",
+    "css-html-js": "npm run css-build && npm run html-build && npm run build:js",
     "html-build": "posthtml -c posthtml.json",
+    "css-html": "npm run css-build && npm run html-build",
     "build:js": "webpack --mode=production",
     "build-img": "imagemin src/assets/*.jpg --out-dir=dist/img && imagemin src/assets/*.ico --out-dir=dist/ && imagemin src/assets/*.png --out-dir=dist/img && imagemin src/assets/*.svg --out-dir=dist/img"
   },

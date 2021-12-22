@@ -3,14 +3,12 @@ name: npm-build
 on:
   push:
     branches: [ master ]
-    paths:
-      - '.github/**'
-      - 'src/**'
+    paths-ignore:
+      - '**/README.md'
   pull_request:
     branches: [ master ]
-    paths:
-      - '.github/**'
-      - 'src/**'
+    paths-ignore:
+      - '**/README.md'
 
 jobs:
   npm-build:

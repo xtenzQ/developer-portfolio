@@ -25,7 +25,12 @@ jobs:
       - name: build site
         run: npm run build-all
 
-      - uses: actions/checkout@v2
+      - name: Commit changes
+        run: |
+          git config --global user.name 'Nikita Rusetskii'
+          git config --global user.email 'xtenzq@users.noreply.github.com'
+          git commit -am 'Updates files'
+          git push
 
       - name: deploy
         uses: peaceiris/actions-gh-pages@v3

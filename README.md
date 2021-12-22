@@ -1,5 +1,7 @@
 # Devfolio Static Website
 
+![Website preview](https://repository-images.githubusercontent.com/190986196/62ae63d6-59b0-499b-b506-58e0e6d0670b)
+
 [![npm-build](https://github.com/xtenzQ/xtenzQ.github.io/actions/workflows/build.yml/badge.svg)](https://github.com/xtenzQ/xtenzQ.github.io/actions/workflows/build.yml)
 [![pages-build-deployment](https://github.com/xtenzQ/xtenzQ.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/xtenzQ/xtenzQ.github.io/actions/workflows/pages/pages-build-deployment)
 

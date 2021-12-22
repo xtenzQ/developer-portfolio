@@ -19,7 +19,20 @@ jobs:
         with:
           node-version: '16'
 
-      - name: Install dependencies
+      - name: Cache node modules
+        uses: actions/cache@v2
+        env:
+          cache-name: cache-node-modules
+        with:
+          # npm cache files are stored in `~/.npm` on Linux/macOS
+          path: ~/.npm
+          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-build-${{ env.cache-name }}-
+            ${{ runner.os }}-build-
+            ${{ runner.os }}-
+
+      - name: Install Dependencies
         run: npm install
 
       - name: build site
@@ -29,6 +42,7 @@ jobs:
         run: |
           git config --global user.name 'Nikita Rusetskii'
           git config --global user.email 'xtenzq@users.noreply.github.com'
+          git add *
           git commit -am 'Updates files'
           git push
 

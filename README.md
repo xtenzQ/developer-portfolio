@@ -5,10 +5,29 @@
 
 ![Website preview](https://repository-images.githubusercontent.com/190986196/62ae63d6-59b0-499b-b506-58e0e6d0670b)
 
-Personal website made with Bootstrap and AOS framework.
+Personal website made with **[Bootstrap](https://github.com/twbs/bootstrap)** and **[AOS framework](https://github.com/michalsnik/aos)**.
 
 This website was developed following article **[How to build a static website without frameworks using npm scripts](https://wweb.dev/blog/how-to-create-static-website-npm-scripts/)** by [wweb.dev](https://wweb.dev/).
 
-Pics are from Shutterstock.
+Pics are from **[Shutterstock](https://www.shutterstock.com/)**.
 
 Design and code by me.
+
+## Build
+
+Install dependencies
+```Bash
+npm install
+```
+
+Build sources
+```Bash
+npm run build
+```
+
+Website is built into `dist` directory.
+
+
+## GitHub Workflows
+
+Sources are automatically built on push and deployed into `gh-pages` branch with GitHub Pages.

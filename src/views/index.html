@@ -3,19 +3,39 @@
 <head>
     <module href="/head.html"></module>
 </head>
-<body data-bs-spy="scroll" data-bs-target="#main-nav" data-bs-offset="0" class="scrollspy-example" tabindex="0">
-    <module href="/nav.html"></module>
-    <module href="/hero.html"></module>
-    <module href="/skills.html"></module>
-    <module href="/edu-exp.html"></module>
-    <module href="/research.html"></module>
-    <module href="/awards.html"></module>
-    <module href="/projects.html"></module>
-    <module href="/footer.html"></module>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
-    <script>
-        AOS.init({disable: 'mobile'});
-    </script>
+<body class="scrollspy-example" data-bs-offset="0" data-bs-spy="scroll" data-bs-target="#main-nav" tabindex="0">
+<module href="/nav.html"></module>
+<module href="/hero.html"></module>
+<module href="/skills.html"></module>
+<module href="/edu-exp.html"></module>
+<module href="/research.html"></module>
+<module href="/awards.html"></module>
+<module href="/projects.html"></module>
+<module href="/footer.html"></module>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+<script>
+    AOS.init({disable: 'mobile'});
+
+    function calcDate() {
+        const diff = Math.floor(new Date().getTime() - new Date(2020, 12, 10).getTime() + new Date(2020, 1, 4).getTime() - new Date(2020, 1, 2).getTime());
+        console.log(diff)
+        const day = 1000 * 60 * 60 * 24;
+
+        const mod_months = Math.floor((diff / day) % 31);
+        const years = Math.floor(diff / day / 31 / 12);
+
+        let year_word = "years";
+        let month_word = "months";
+        if (years === 1) year_word = "year";
+        if (mod_months === 1) month_word = "month";
+
+        const message = years + " " + year_word + " " + mod_months + " " + month_word;
+
+        return message
+    }
+
+    document.getElementById('time').innerHTML = calcDate();
+</script>
 </body>
 </html>

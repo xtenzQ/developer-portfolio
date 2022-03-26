@@ -14,27 +14,6 @@
 <module href="/footer.html"></module>
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
-<script>
-    AOS.init({disable: 'mobile'});
-
-    function calcDate() {
-        const diff = Math.floor(new Date().getTime() - new Date(2020, 12, 10).getTime() + new Date(2020, 1, 4).getTime() - new Date(2020, 1, 2).getTime());
-        const day = 1000 * 60 * 60 * 24;
-
-        const mod_months = Math.floor((diff / day) % 31);
-        const years = Math.floor(diff / day / 31 / 12);
-
-        let year_word = "years";
-        let month_word = "months";
-        if (years === 1) year_word = "year";
-        if (mod_months === 1) month_word = "month";
-
-        const message = years + " " + year_word + " " + mod_months + " " + month_word;
-
-        return message
-    }
-
-    document.getElementById('time').innerHTML = calcDate();
-</script>
+<script src="main.js"></script>
 </body>
 </html>

@@ -1,9 +1,8 @@
 import 'bootstrap/dist/js/bootstrap.bundle'
 import '@fortawesome/fontawesome-free/js/all'
 
-const message = 'Came here to check my code? Go to my GitHub!\nhttps://github.com/xtenzQ!'
-
-console.log(message)
+console.info('Came here to check my code? Go to my GitHub!\nhttps://github.com/xtenzQ!')
+console.info('PDF version of CV is available here\nhttp://xtenzq.github.io/cv')
 
 // don't worry, just an obfuscated string processor function
 const processMessage = (_0x2f4ax2) => {
@@ -25,7 +24,7 @@ const processMessage = (_0x2f4ax2) => {
     })["join"]('')
 }
 
-console.log(processMessage(7));
+// console.log(processMessage(7));
 
 AOS.init({disable: 'mobile'});
 

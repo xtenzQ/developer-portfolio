@@ -6,21 +6,23 @@ console.info('PDF version of CV is available here\nhttp://xtenzq.github.io/cv')
 
 AOS.init({disable: 'mobile'});
 
+function calculateDifferenceBetweenDates(start, end) {
+    let months = (end.getFullYear() - start.getFullYear()) * 12;
+    months -= start.getMonth();
+    months += end.getMonth();
+    return {years: Math.floor(months / 12), months: months % 12}
+}
+
 function calcDate() {
-    const internship = new Date(2020, 1, 4).getTime() - new Date(2020, 1, 2).getTime();
-    const work_exp = new Date().getTime() - new Date(2020, 12, 10).getTime();
-    const diff = Math.floor(internship + work_exp);
-    const day = 1000 * 60 * 60 * 24; // day in ms
-    const daysInMonth = 31;
-    const monthsInYear = 12;
+    const internship = calculateDifferenceBetweenDates(new Date(2020, 2, 1), new Date(2020, 4, 1));
+    const work = calculateDifferenceBetweenDates(new Date(2020, 10, 12), new Date());
 
-    const mod_months = Math.floor((diff / day) % daysInMonth);
-    const years = Math.floor(diff / day / daysInMonth / monthsInYear);
+    const exp = {years: work.years + internship.years, months: work.months + internship.months};
 
-    let year_word = years === 1 ? "year" : "years";
-    let month_word = mod_months === 1 ? "month" : "months";
+    const year_word = exp.years === 1 ? "year" : "years";
+    const month_word = exp.months === 1 ? "month" : "months";
 
-    return `${years} ${year_word} ${mod_months} ${month_word}`;
+    return `${exp.years} ${year_word} ${exp.months} ${month_word}`;
 }
 
 document.getElementById('time').innerHTML = calcDate();

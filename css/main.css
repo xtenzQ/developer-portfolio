@@ -8,8 +8,7 @@
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  * Copyright 2022 Fonticons, Inc.
  */
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap");
 .fa {
   font-family: var(--fa-style-family, "Font Awesome 6 Free");
   font-weight: var(--fa-style, 900); }
@@ -16359,7 +16358,7 @@ body {
   color: white; }
 
 nav {
-  font-family: "Poppins", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 600;
   height: 76px; }
   nav .nav-link.active {
@@ -16380,7 +16379,7 @@ nav {
     z-index: -1; }
 
 #skills {
-  font-family: "Poppins", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 14px; }
   #skills img {
     width: 128px;
@@ -16450,7 +16449,7 @@ nav {
     background-color: #F7DF1E; }
 
 #edu-exp {
-  font-family: "Poppins", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 14px;
   /*==================================
    *    TIMELINE
@@ -16654,11 +16653,11 @@ nav {
     background: #00b7d5; }
 
 #research {
-  font-family: "Poppins", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 14px; }
 
 #awards {
-  font-family: "Poppins", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 14px; }
   #awards .card-img-top {
     height: 300px;
@@ -16668,7 +16667,7 @@ nav {
     box-shadow-bottom: 4px 4px 4px black; }
 
 #projects {
-  font-family: "Poppins", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 14px; }
   #projects .tags .tag:not(:last-child) {
     margin-right: .5rem; }
@@ -16718,5 +16717,5 @@ nav {
       transition: none; } }
 
 footer {
-  font-family: "Poppins", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 14px; }

@@ -16359,7 +16359,7 @@ body {
   color: white; }
 
 nav {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
   height: 76px; }
   nav .nav-link.active {
@@ -16380,7 +16380,7 @@ nav {
     z-index: -1; }
 
 #skills {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 14px; }
   #skills img {
     width: 128px;
@@ -16427,15 +16427,9 @@ nav {
   #skills .solr:hover {
     color: #fff;
     background-color: #D9411E; }
-  #skills .hibernate:hover {
-    color: #fff;
-    background-color: #59666C; }
   #skills .spring:hover {
     color: #fff;
     background-color: #6DB33F; }
-  #skills .golang:hover {
-    color: #fff;
-    background-color: #00ADD8; }
   #skills .kotlin:hover {
     color: #fff;
     background-color: #0095D5; }
@@ -16454,12 +16448,9 @@ nav {
   #skills .js:hover {
     color: #000;
     background-color: #F7DF1E; }
-  #skills .dojo:hover {
-    color: #fff;
-    background-color: #f02541; }
 
 #edu-exp {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 14px;
   /*==================================
    *    TIMELINE
@@ -16663,13 +16654,11 @@ nav {
     background: #00b7d5; }
 
 #research {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 14px; }
-  #research .partner-logo {
-    height: 90px; }
 
 #awards {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 14px; }
   #awards .card-img-top {
     height: 300px;
@@ -16679,7 +16668,7 @@ nav {
     box-shadow-bottom: 4px 4px 4px black; }
 
 #projects {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 14px; }
   #projects .tags .tag:not(:last-child) {
     margin-right: .5rem; }
@@ -16729,5 +16718,5 @@ nav {
       transition: none; } }
 
 footer {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 14px; }

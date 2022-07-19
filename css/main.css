@@ -9,6 +9,7 @@
  * Copyright 2022 Fonticons, Inc.
  */
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
 .fa {
   font-family: var(--fa-style-family, "Font Awesome 6 Free");
   font-weight: var(--fa-style, 900); }
@@ -16324,7 +16325,7 @@ html {
   scroll-behavior: smooth; }
 
 body {
-  font-family: "Segoe UI", sans-serif;
+  font-family: "Open Sans", sans-serif;
   position: relative; }
 
 ::-webkit-scrollbar {
@@ -16420,6 +16421,12 @@ nav {
   #skills .java:hover {
     color: #fff;
     background-color: #007396; }
+  #skills .groovy:hover {
+    color: #fff;
+    background-color: #4298B8; }
+  #skills .solr:hover {
+    color: #fff;
+    background-color: #D9411E; }
   #skills .hibernate:hover {
     color: #fff;
     background-color: #59666C; }

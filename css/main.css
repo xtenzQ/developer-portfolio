@@ -17033,8 +17033,11 @@ nav {
   #edu-exp h1, #edu-exp .h1, #edu-exp h2, #edu-exp .h2, #edu-exp h3, #edu-exp .h3, #edu-exp h4, #edu-exp .h4, #edu-exp h5, #edu-exp .h5, #edu-exp h6, #edu-exp .h6 {
     color: #3D4351;
     margin-top: 0; }
+  #edu-exp li {
+    margin-bottom: 10px; }
   #edu-exp a {
-    color: #00b7d5; }
+    color: #00b7d5;
+    text-decoration: none; }
     #edu-exp a:hover {
       color: #ff9a9a;
       text-decoration: none; }

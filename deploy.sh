@@ -2,7 +2,7 @@
 
 set -e
 
-npm run install
+npm install
 npm run build
 
 cd dist

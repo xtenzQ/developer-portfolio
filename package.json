@@ -1,52 +1,53 @@
 {
   "name": "devfolio",
-  "version": "1.0.0",
+  "version": "0.0.1",
+  "description": "Developer portfolio in Vue.js and Bootstrap 5",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
   "dependencies": {
-    "@babel/core": "^7.16.5",
-    "@popperjs/core": "^2.11.0",
-    "aos": "^2.3.4",
-    "autoprefixer": "^10.4.0",
-    "bootstrap": "^5.1.3",
-    "css-loader": "^6.5.1",
-    "iconify": "^1.3.0",
-    "jquery": "^3.6.0",
-    "sass-loader": "^12.4.0",
-    "style-loader": "^3.3.1"
+    "@fortawesome/fontawesome-svg-core": "^6.1.2",
+    "@fortawesome/free-brands-svg-icons": "^6.1.2",
+    "@fortawesome/free-regular-svg-icons": "^6.1.2",
+    "@fortawesome/free-solid-svg-icons": "^6.1.2",
+    "@fortawesome/vue-fontawesome": "^3.0.1",
+    "bootstrap": "^5.2.0",
+    "core-js": "^3.8.3",
+    "vue": "^3.2.13",
+    "vue-router": "^4.1.3",
+    "vuex": "^4.0.0"
   },
   "devDependencies": {
-    "@babel/preset-env": "^7.16.5",
-    "@fortawesome/fontawesome-free": "^6.1.1",
-    "babel-loader": "^8.2.3",
-    "browser-sync": "^2.27.9",
-    "htmlnano": "^1.1.1",
-    "imagemin-cli": "^7.0.0",
-    "node-sass": "^7.0.0",
-    "npm-run-all": "^4.1.5",
-    "onchange": "^7.1.0",
-    "postcss": "^8.4.5",
-    "postcss-loader": "^6.2.1",
-    "posthtml": "^0.16.5",
-    "posthtml-cli": "^0.10.0",
-    "posthtml-modules": "^0.8.0",
-    "webpack": "^5.65.0",
-    "webpack-cli": "^4.9.1"
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-plugin-vuex": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "prettier": "^2.4.1",
+    "sass": "^1.32.7",
+    "sass-loader": "^12.0.0"
   },
-  "scripts": {
-    "build": "run-p build:* && cp src/CNAME dist && cp -r src/webfonts dist/webfonts",
-    "build:html": "posthtml -c posthtml.json",
-    "build:css": "node-sass --omit-source-map-url src/styles/_all.sass dist/css/main.css",
-    "build:js": "webpack --mode=production",
-    "build:img": "imagemin src/assets/*.jpg --out-dir=dist/img && imagemin src/assets/*.ico --out-dir=dist/ && imagemin src/assets/*.png --out-dir=dist/img && imagemin src/assets/*.svg --out-dir=dist/img",
-    "watch": "run-p serve watch:*",
-    "watch:html": "onchange \"src/views\" -- npm run build:html",
-    "watch:css": "onchange \"src/styles\" -- npm run build:css",
-    "watch:js": "onchange \"src/js\" -- webpack --mode=development",
-    "watch:img": "onchange \"src/assets\" -- npm run build:img",
-    "serve": "browser-sync start --server \"dist\" --files \"dist\"",
-    "minify-all": "minify dist/css/main.css > dist/css/main.min.css"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xtenzQ/xtenzQ.github.io.git"
   },
-  "description": "developer portfolio",
-  "main": "index.js",
+  "keywords": [
+    "portfolio",
+    "devfolio"
+  ],
   "author": "Nikita Rusetskii",
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xtenzQ/xtenzQ.github.io/issues"
+  },
+  "homepage": "https://github.com/xtenzQ/xtenzQ.github.io#readme"
 }

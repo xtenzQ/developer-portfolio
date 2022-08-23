@@ -4,20 +4,15 @@
   </base-container>
 </template>
 <script>
-import awards from "../../data/awards";
 import SingleAward from "./SingleAward.vue";
 import BaseContainer from "../reusable/BaseContainer.vue";
 
 export default {
   name: "AwardsGrid",
+  props: ["awards"],
   components: {
     SingleAward,
     BaseContainer,
-  },
-  data: () => {
-    return {
-      awards,
-    };
   },
 };
 </script>

@@ -9,19 +9,14 @@
 </template>
 <script>
 import SingleJob from "./SingleJob.vue";
-import experience from "@/data/experience";
 import BaseContainer from "../reusable/BaseContainer.vue";
 
 export default {
+  props: ["experience"],
   name: "ExperienceTable",
   components: {
     SingleJob,
     BaseContainer,
-  },
-  data: () => {
-    return {
-      experience,
-    };
   },
 };
 </script>

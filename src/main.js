@@ -1,7 +1,13 @@
 import { createApp } from "vue";
 import App from "./App.vue";
+
+// router
 import router from "./router";
+
+// bootstrap bundle
 import bootstrap from "bootstrap/dist/js/bootstrap.bundle";
+
+// font aswesome
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 import { faFileLines } from "@fortawesome/free-regular-svg-icons";

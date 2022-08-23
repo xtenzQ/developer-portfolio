@@ -5,34 +5,30 @@
       <!-- Section: Social media -->
       <section>
         <!-- Linkedin -->
-        <a
-          class="btn text-white btn-floating m-1"
-          target="_blank"
-          href="https://linkedin.com/in/xtenzq"
-          role="button"
-          ><font-awesome-icon :icon="['fab', 'linkedin-in']"
-        /></a>
-
-        <!-- Github -->
-        <a
-          class="btn text-white btn-floating m-1"
-          target="_blank"
-          href="https://github.com/xtenzQ"
-          role="button"
-          ><font-awesome-icon :icon="['fab', 'github']"
-        /></a>
+        <icon-link
+          v-for="link in links"
+          :key="link.id"
+          :url="link.url"
+          :icon="link.icon"
+          class="text-white"
+        />
       </section>
       <!-- Section: Social media -->
     </div>
     <!-- Grid container -->
 
     <!-- Copyright -->
-    <div class="text-center p-3">© 2022 Nikita Rusetskii</div>
+    <div class="text-center p-3">© {{ copyright }}</div>
     <!-- Copyright -->
   </footer>
 </template>
 <script>
+import IconLink from "../reusable/IconLink.vue";
 export default {
+  props: ["links", "copyright"],
+  components: {
+    IconLink,
+  },
   name: "AppFooter",
 };
 </script>

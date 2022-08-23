@@ -1,9 +1,27 @@
 <template>
   <div class="col-sm-12 col-md-4 mb-3">
     <div class="text-center">
-      <img class="mb-3" :src="require(`@/assets/images/${skill.image}`)" />
-      <h4 class="mb-3">{{ skill.title }}</h4>
-      <div class="tags mb-3 has-text-weight-semibold">
+      <img
+        class="mb-3"
+        :src="require(`@/assets/images/${skill.image}`)"
+        data-aos="fade-up"
+        :data-aos-delay="delay"
+        data-aos-anchor-placement="top-bottom"
+      />
+      <h4
+        class="mb-3"
+        data-aos="fade-up"
+        :data-aos-delay="delay + 100"
+        data-aos-anchor-placement="top-bottom"
+      >
+        {{ skill.title }}
+      </h4>
+      <div
+        class="tags mb-3 has-text-weight-semibold"
+        data-aos="fade-up"
+        :data-aos-delay="delay + 200"
+        data-aos-anchor-placement="top-bottom"
+      >
         <span
           v-for="language in skill.languages"
           :key="language.id"
@@ -23,6 +41,11 @@
 export default {
   name: "SingleSkill",
   props: ["skill"],
+  data: () => {
+    return {
+      delay: 500,
+    };
+  },
 };
 </script>
 <style scoped>

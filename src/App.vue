@@ -6,12 +6,9 @@
     data-bs-target="#main-nav"
     tabindex="0"
   >
-    <!-- App header -->
-    <MenuVue />
-
     <!-- Render active component contents with vue transition -->
     <transition name="fade" mode="out-in">
-      <router-view :theme="appTheme" />
+      <router-view />
     </transition>
 
     <!-- Scroll to top -->
@@ -23,25 +20,17 @@
     >
       <i data-feather="chevron-up"></i>
     </back-to-top>
-
-    <!-- App footer -->
-    <FooterVue />
   </div>
 </template>
 <script>
-import MenuVue from "./components/shared/AppMenu.vue";
-import FooterVue from "./components/shared/AppFooter.vue";
+// aos
+// import AOS from "aos";
+// import "aos/dist/aos.css";
 
 export default {
-  components: {
-    MenuVue,
-    FooterVue,
-  },
-  data: () => {
-    return {
-      appTheme: localStorage.getItem("theme"),
-    };
-  },
+  // mounted() {
+  //   AOS.init();
+  // },
 };
 </script>
 <style lang="scss">

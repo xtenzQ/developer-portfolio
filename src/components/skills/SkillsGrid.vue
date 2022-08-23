@@ -5,17 +5,12 @@
 </template>
 <script>
 import SingleSkill from "./SingleSkill.vue";
-import skills from "../../data/skills";
 import BaseContainer from "../reusable/BaseContainer.vue";
 
 export default {
+  props: ["skills"],
   name: "SkillsGrid",
   components: { SingleSkill, BaseContainer },
-  data: () => {
-    return {
-      skills,
-    };
-  },
 };
 </script>
 <style scoped></style>

@@ -4,7 +4,6 @@
   "description": "Developer portfolio in Vue.js and Bootstrap 5",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build && cp CNAME dist",
     "lint": "vue-cli-service lint"
@@ -15,6 +14,7 @@
     "@fortawesome/free-regular-svg-icons": "^6.1.2",
     "@fortawesome/free-solid-svg-icons": "^6.1.2",
     "@fortawesome/vue-fontawesome": "^3.0.1",
+    "aos": "^2.3.4",
     "bootstrap": "^5.2.0",
     "core-js": "^3.24.1",
     "vue": "^3.2.37",

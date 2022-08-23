@@ -5,7 +5,7 @@
   >
     <div class="container">
       <a class="logo navbar-brand d-flex align-items-center" href="#">
-        > # ~ / rusetsk<span class="prim">ii</span>
+        <slot></slot>
       </a>
       <button
         aria-controls="navbar4"
@@ -21,20 +21,8 @@
 
       <div class="collapse navbar-collapse bg-white" id="navbar4">
         <ul class="navbar-nav ms-auto">
-          <li class="nav-item px-lg-2">
-            <a class="nav-link" href="#hero">home</a>
-          </li>
-          <li class="nav-item px-lg-2">
-            <a class="nav-link" href="#skills">skills</a>
-          </li>
-          <li class="nav-item px-lg-2">
-            <a class="nav-link" href="#edu-exp">experience</a>
-          </li>
-          <li class="nav-item px-lg-2">
-            <a class="nav-link" href="#awards">awards</a>
-          </li>
-          <li class="nav-item px-lg-2">
-            <a class="nav-link" href="#projects">projects</a>
+          <li v-for="link in links" :key="link.name" class="nav-item px-lg-2">
+            <a class="nav-link" :href="link.url">{{ link.name }}</a>
           </li>
         </ul>
       </div>
@@ -43,11 +31,12 @@
 </template>
 <script>
 export default {
+  props: ["links"],
   name: "AppMenu",
 };
 </script>
-<style lang="scss" scoped>
-* {
+<style lang="scss">
+a .nav-link {
   font-weight: 600;
 }
 

@@ -9,7 +9,22 @@ Personal website made with **[Bootstrap 5](https://github.com/twbs/bootstrap)**,
 
 Pics are from **[Shutterstock](https://www.shutterstock.com/)**.
 
+Project filters & routing taken from [Nangialai Stoman's tailwindcss portfolio template](https://github.com/realstoman/vuejs-tailwindcss-portfolio)
+
 Design and code by me.
+
+## Features
+
+- Flat and clean responsive design;
+- Vue.js v3;
+- Bootstrap 5.2;
+- Reusable Components;
+- Projects filter;
+- AOS animations (coming).
+
+## Plans
+- Jekyll blogs;
+- Routing.
 
 ## Build & Develop
 

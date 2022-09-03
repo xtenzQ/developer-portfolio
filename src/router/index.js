@@ -6,9 +6,6 @@ const routes = [
     path: "/",
     name: "Home",
     component: HomeView,
-    meta: {
-      title: "Nikita Rusetskii - Home",
-    },
   },
 ];
 

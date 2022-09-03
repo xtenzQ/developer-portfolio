@@ -35,17 +35,13 @@ export default {
   name: "AppMenu",
 };
 </script>
-<style lang="scss">
-a .nav-link {
+<style lang="scss" scoped>
+* {
   font-weight: 600;
 }
 
 .nav-link.active {
   border-bottom: 2px solid $primary;
-}
-
-.prim {
-  color: $primary;
 }
 
 .logo {

@@ -7,6 +7,12 @@ import router from "./router";
 // bootstrap bundle
 import bootstrap from "bootstrap/dist/js/bootstrap.bundle";
 
+import { createMetaManager, defaultConfig } from "vue-meta";
+const metaManager = createMetaManager(false, {
+  ...defaultConfig,
+  meta: { tag: "meta", nameless: true },
+});
+
 // font aswesome
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
@@ -18,4 +24,5 @@ createApp(App)
   .use(bootstrap)
   .component("font-awesome-icon", FontAwesomeIcon)
   .use(router)
+  .use(metaManager)
   .mount("#app");

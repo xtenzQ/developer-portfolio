@@ -1,4 +1,6 @@
 <template>
+  <metainfo> </metainfo>
+
   <div
     class="scrollspy-example"
     data-bs-offset="0"
@@ -26,8 +28,55 @@
 // aos
 // import AOS from "aos";
 // import "aos/dist/aos.css";
+import { useMeta } from "vue-meta";
 
 export default {
+  data: () => {
+    return {
+      webTitle: "Nikita RUSETSKII - Backend Developer",
+    };
+  },
+  setup() {
+    useMeta({
+      title: "Nikita RUSETSKII - Backend Developer",
+      description: "Just a guy with passion for coding",
+      htmlAttrs: {
+        lang: "en",
+        amp: true,
+      },
+      twitter: {
+        title: "Nikita RUSETSKII - Backend Developer",
+        description: "Just a guy with passion for coding",
+        card: "summary_large_image",
+        image: "https://rusetskii.dev" + require(`@/assets/images/preview.jpg`),
+      },
+      og: {
+        title: "Nikita RUSETSKII - Backend Developer",
+        description: "Just a guy with passion for coding",
+        type: "website",
+        url: "https://rusetskii.dev/",
+        image: "https://rusetskii.dev" + require(`@/assets/images/preview.jpg`),
+        site_name: "Nikita RUSETSKII - Backend Developer",
+      },
+      meta: [
+        {
+          name: "keywords",
+          content:
+            "software developer, software engineer, backend developer, fullstack developer, machine learning engineer, AI researcher, developer portfolio",
+        },
+        {
+          name: "author",
+          content: "Nikita Rusetskii",
+        },
+      ],
+      link: [
+        {
+          rel: "icon",
+          href: require(`@/assets/images/favicon.png`),
+        },
+      ],
+    });
+  },
   // mounted() {
   //   AOS.init();
   // },

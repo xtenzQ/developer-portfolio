@@ -68,6 +68,10 @@ export default {
           name: "author",
           content: "Nikita Rusetskii",
         },
+        {
+          name: "theme-color",
+          content: "#00b7d5",
+        },
       ],
       link: [
         {

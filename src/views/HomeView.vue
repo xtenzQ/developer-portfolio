@@ -1,6 +1,6 @@
 <template>
   <!-- Menu -->
-  <MenuVue :links="links">> # ~ / rusetsk<span class="prim">ii</span></MenuVue>
+  <MenuVue :links="links">> # ~ / nikita<span class="prim">r</span></MenuVue>
   <HeroSection id="hero" pic="header.png">
     <template v-slot:welcome>Welcome!</template>
     My name is <b>Nikita Rusetskii</b> and I'm a

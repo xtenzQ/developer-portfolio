@@ -25,35 +25,6 @@ const experience = [
   },
   {
     id: 2,
-    date: "Oct 2020 - Jan 2022",
-    position: "Full Stack Developer",
-    company: "Transneft Technology",
-    url: "",
-    description: [
-      {
-        id: 1,
-        description:
-          "Developed several widgets to operate system parameters for ECM system in JavaScript and Dojo",
-      },
-      {
-        id: 2,
-        description:
-          "Implemented new features to process documents (preview windows, documents pipelines, RESTful API, etc.) in the ECM system in Java EE, Groovy and GWT",
-      },
-      {
-        id: 3,
-        description:
-          "Worked closely with IBM FileNet platform (creating new documents, templates, manipulating configuration)",
-      },
-      {
-        id: 4,
-        description:
-          "Made Groovy and SQL scripts to migrate data within IBM FileNet system",
-      },
-    ],
-  },
-  {
-    id: 3,
     date: "Feb 2020 - Apr 2020",
     position: "Backend Developer Intern",
     company: "ISPsystem",

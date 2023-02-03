@@ -3,34 +3,27 @@
 [![npm-build](https://github.com/xtenzQ/xtenzQ.github.io/actions/workflows/build.yml/badge.svg)](https://github.com/xtenzQ/xtenzQ.github.io/actions/workflows/build.yml)
 [![pages-build-deployment](https://github.com/xtenzQ/xtenzQ.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/xtenzQ/xtenzQ.github.io/actions/workflows/pages/pages-build-deployment)
 
+<p align="center">
+<a href="https://github.com/xtenzQ/xtenzQ.github.io">Repository</a> | <a href="https://github.com/xtenzQ">Developer</a><br>
+🚀 Nikita Rusetskii portfolio website in flat design made with Vue.js and Bootstrap 5
+</p>
+
 ![Website preview](https://repository-images.githubusercontent.com/190986196/62ae63d6-59b0-499b-b506-58e0e6d0670b)
 
-Personal website made with **[Bootstrap 5](https://github.com/twbs/bootstrap)**, **[AOS framework](https://github.com/michalsnik/aos)** (hasn't implemented for Vue version yet) and Vue.
-
-Pics are from **[Shutterstock](https://www.shutterstock.com/)**.
-
-Project filters & routing taken from [Nangialai Stoman's tailwindcss portfolio template](https://github.com/realstoman/vuejs-tailwindcss-portfolio)
-
-Design and code by **[Nikita Rusetskii](http://github.com/xtenzQ)**. Link to [GitHub repository](https://github.com/xtenzQ/xtenzQ.github.io).
-
-## Find this repository useful? 💙
-Support it by joining __[stargazers](https://github.com/xtenzQ/xtenzQ.github.io/stargazers)__ for this repository. :star: <br>
-
-## 🛠 Tech Stacks & Features
-
-- Flat and clean responsive design;
-- Vue.js v3;
-- Bootstrap 5.2;
-- Reusable Components;
-- Projects filter;
-- AOS animations (coming).
+## 🛠 Tech Stacks
+- [Vue.js v3](https://github.com/vuejs/core) for building UI;
+- [Bootstrap 5.2](https://github.com/twbs/bootstrap) for flat and clean responsive design;
+- [Font Awesome 6](https://github.com/FortAwesome/Font-Awesome) for icons.
 
 ## 🚀 To-do
-- Jekyll blogs;
-- Routing.
+- [ ] Add blog;
+- [ ] Enable AOS animations.
 
-## 💻 Build & Develop
+## ©️ Reference
+- Pics are from **[Shutterstock](https://www.shutterstock.com/)**.
+- Project filters & routing taken from [Nangialai Stoman's tailwindcss portfolio template](https://github.com/realstoman/vuejs-tailwindcss-portfolio)
 
+## 💻 How to build the project?
 Install dependencies
 ```Bash
 npm install
@@ -48,12 +41,18 @@ npm run serve
 
 Website is built into `dist` directory.
 
-## 🤖 GitHub Workflows
+❗**Don't forget to change/remove my `CNAME` file before deployment!**
 
+## 🤖 GitHub Workflows
 Sources are automatically built on push and deployed into `gh-pages` branch with GitHub Pages.
 
-## License
+## 🤝 Contribution
+I'd love to accept your contributions to this project. I use GitHub pull requests for this purpose. Consult [GitHub Help](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) for more information on using pull requests.
 
+## 🧡 Find this repository useful?
+Like the website or got inspired by it? Please support it by joining __[stargazers](https://github.com/xtenzQ/xtenzQ.github.io/stargazers)__ for this repository. :star:
+
+## License
 ```
 MIT License
 

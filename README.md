@@ -1,14 +1,18 @@
-# Vue.js Bootstrap 5 Devfolio
-
-[![npm-build](https://github.com/xtenzQ/xtenzQ.github.io/actions/workflows/build.yml/badge.svg)](https://github.com/xtenzQ/xtenzQ.github.io/actions/workflows/build.yml)
-[![pages-build-deployment](https://github.com/xtenzQ/xtenzQ.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/xtenzQ/xtenzQ.github.io/actions/workflows/pages/pages-build-deployment)
+<h1 align="center">Vue.js & Bootstrap Developer Portfolio</h1>
 
 <p align="center">
-<a href="https://github.com/xtenzQ/xtenzQ.github.io">Repository</a> | <a href="https://github.com/xtenzQ">Developer</a><br>
-🚀 Nikita Rusetskii portfolio website in flat design made with Vue.js and Bootstrap 5
+  <a href="https://github.com/xtenzQ/xtenzQ.github.io/actions/workflows/build.yml"><img src="https://github.com/xtenzQ/xtenzQ.github.io/actions/workflows/build.yml/badge.svg" /></a> 
+  <a href="https://github.com/xtenzQ/xtenzQ.github.io/actions/workflows/pages/pages-build-deployment"><img src="https://github.com/xtenzQ/xtenzQ.github.io/actions/workflows/pages/pages-build-deployment/badge.svg" /></a>
+  <br>
 </p>
 
-![Website preview](https://repository-images.githubusercontent.com/190986196/62ae63d6-59b0-499b-b506-58e0e6d0670b)
+<p align="center">
+🚀 <a href="https://github.com/xtenzQ">Nikita Rusetskii</a> portfolio website in flat design made with Vue.js and Bootstrap 5
+</p></br>
+
+<p align="center">
+  <img src="https://repository-images.githubusercontent.com/190986196/62ae63d6-59b0-499b-b506-58e0e6d0670b" />
+</p>
 
 ## 🛠 Tech Stacks
 - [Vue.js v3](https://github.com/vuejs/core) for building UI;

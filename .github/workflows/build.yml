@@ -1,4 +1,4 @@
-name: npm-build
+name: Build and Deploy
 
 on:
   workflow_dispatch:
@@ -12,40 +12,44 @@ on:
       - '**/README.md'
 
 jobs:
-  npm-build:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Setup Node.js
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v3
         with:
-          node-version: '16.x'
+          node-version: '16'
 
       - name: Cache node modules
-        uses: actions/cache@v2
-        env:
-          cache-name: cache-node-modules
+        uses: actions/cache@v3
         with:
-          # npm cache files are stored in `~/.npm` on Linux/macOS
           path: ~/.npm
-          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
           restore-keys: |
-            ${{ runner.os }}-build-${{ env.cache-name }}-
-            ${{ runner.os }}-build-
-            ${{ runner.os }}-
+            ${{ runner.os }}-node-
+
       - name: Install dependencies
         run: npm install
 
       - name: Build
         run: npm run build
 
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
       - name: Deploy to gh-pages
-        uses: s0/git-publish-subdir-action@develop
+        uses: s0/git-publish-subdir-action@v3
+        with:
+          folder: dist
+          branch: gh-pages
+          repo: ${{ github.repository }}
         env:
-          REPO: self
-          BRANCH: gh-pages
-          FOLDER: dist
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           MESSAGE: "deploy website"

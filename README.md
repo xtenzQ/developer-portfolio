@@ -1,8 +1,8 @@
 <h1 align="center">Vue.js & Bootstrap Developer Portfolio</h1>
 
 <p align="center">
-  <a href="https://github.com/xtenzQ/xtenzQ.github.io/actions/workflows/build.yml"><img src="https://github.com/xtenzQ/xtenzQ.github.io/actions/workflows/build.yml/badge.svg" /></a> 
-  <a href="https://github.com/xtenzQ/xtenzQ.github.io/actions/workflows/pages/pages-build-deployment"><img src="https://github.com/xtenzQ/xtenzQ.github.io/actions/workflows/pages/pages-build-deployment/badge.svg" /></a>
+  <a href="https://github.com/xtenzQ/developer-portfolio/actions/workflows/build.yml"><img src="https://github.com/xtenzQ/developer-portfolio/actions/workflows/build.yml/badge.svg" /></a> 
+  <a href="https://github.com/xtenzQ/developer-portfolio/actions/workflows/pages/pages-build-deployment"><img src="https://github.com/xtenzQ/developer-portfolio/actions/workflows/pages/pages-build-deployment/badge.svg" /></a>
   <br>
 </p>
 
@@ -19,7 +19,7 @@
 - [Bootstrap 5.2](https://github.com/twbs/bootstrap) for flat and clean responsive design;
 - [Font Awesome 6](https://github.com/FortAwesome/Font-Awesome) for icons.
 
-## 🚀 To-do
+## 🤓 To-do
 - [ ] Add blog;
 - [ ] Enable AOS animations.
 
@@ -45,7 +45,8 @@ npm run serve
 
 Website is built into `dist` directory.
 
-❗**Don't forget to change/remove my `CNAME` file before deployment!**
+## 🚀 Deploy
+Before deployment, check `vue.config.js` and change repo path.
 
 ## 🤖 GitHub Workflows
 Sources are automatically built on push and deployed into `gh-pages` branch with GitHub Pages.
@@ -54,7 +55,7 @@ Sources are automatically built on push and deployed into `gh-pages` branch with
 I'd love to accept your contributions to this project. I use GitHub pull requests for this purpose. Consult [GitHub Help](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) for more information on using pull requests.
 
 ## 🧡 Find this repository useful?
-Like the website or got inspired by it? Please support it by joining __[stargazers](https://github.com/xtenzQ/xtenzQ.github.io/stargazers)__ for this repository. :star:
+Like the website or got inspired by it? Please support it by joining __[stargazers](https://github.com/xtenzQ/developer-portfolio/stargazers)__ for this repository. :star:
 
 ## License
 ```

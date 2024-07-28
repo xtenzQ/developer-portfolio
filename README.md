@@ -19,7 +19,7 @@
 - [Bootstrap 5.2](https://github.com/twbs/bootstrap) for flat and clean responsive design;
 - [Font Awesome 6](https://github.com/FortAwesome/Font-Awesome) for icons.
 
-## 🚀 To-do
+## 🤓 To-do
 - [ ] Add blog;
 - [ ] Enable AOS animations.
 
@@ -44,6 +44,9 @@ npm run serve
 ```
 
 Website is built into `dist` directory.
+
+## 🚀 Deploy
+Before deployment, check `vue.config.js` and change repo path.
 
 ## 🤖 GitHub Workflows
 Sources are automatically built on push and deployed into `gh-pages` branch with GitHub Pages.

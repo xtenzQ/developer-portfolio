@@ -45,8 +45,6 @@ npm run serve
 
 Website is built into `dist` directory.
 
-❗**Don't forget to change/remove my `CNAME` file before deployment!**
-
 ## 🤖 GitHub Workflows
 Sources are automatically built on push and deployed into `gh-pages` branch with GitHub Pages.
 
